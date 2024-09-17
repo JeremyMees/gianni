@@ -1,8 +1,8 @@
 <template>
   <div class="min-h-screen flex flex-col">
-    <!-- <Navigation /> -->
+    <Navigation />
 
-    <main class="relative grow pb-[140px] flex flex-col gap-[80px] overflow-hidden">
+    <main class="relative grow pb-[140px] flex flex-col gap-[80px] overflow-hidden content-wrapper">
       <slot />
     </main>
 

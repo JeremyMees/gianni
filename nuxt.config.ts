@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/icon',
     '@nuxtjs/tailwindcss',
+    '@vueuse/nuxt',
   ],
   eslint: {
     config: { stylistic: true },
