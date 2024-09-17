@@ -4,9 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxt/eslint',
-    '@nuxt/icon'
+    '@nuxt/icon',
+    '@nuxtjs/tailwindcss',
   ],
   eslint: {
     config: { stylistic: true },
-  }
+  },
 })
