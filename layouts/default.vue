@@ -2,7 +2,7 @@
   <div class="min-h-screen flex flex-col">
     <Navigation />
 
-    <main class="relative grow pb-[140px] flex flex-col gap-10 overflow-hidden">
+    <main class="relative grow pb-[140px] flex flex-col overflow-hidden">
       <slot />
     </main>
 

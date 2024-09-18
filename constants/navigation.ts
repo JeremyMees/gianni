@@ -11,14 +11,10 @@ export const links: Link[] = [
   },
   {
     label: 'Over ons',
-    link: '/over-ons',
+    link: '/#about',
   },
   {
     label: 'Prijzen',
     link: '/prijzen',
-  },
-  {
-    label: 'Contact',
-    link: '/contact',
   },
 ]

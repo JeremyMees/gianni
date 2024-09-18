@@ -10,17 +10,17 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
 <template>
   <header
     ref="mobileNav"
-    class="bg-black text-white transition-all duration-300 ease-in-out"
+    class="transition-all duration-300 ease-in-out py-6 absolute left-0 right-0 z-10"
     :class="{
-      'shadow-xl': mobileNavOpen,
+      'shadow-xl bg-black pb-0': mobileNavOpen,
     }"
   >
-    <div class="content-wrapper flex items-center justify-between space-x-16">
+    <div class="content-wrapper flex items-center justify-between">
       <NuxtLink
         class="py-4"
         to="/"
       >
-        <span class="uppercase">
+        <span class="uppercase text-white text-2xl font-bold">
           Kamino Media
         </span>
       </NuxtLink>
@@ -30,14 +30,15 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
         role="navigation"
         aria-label="Main menu"
       >
-        <ul class="flex flex-wrap space-x-10">
+        <ul class="flex items-center gap-6 bg-white/40 backdrop-blur-sm px-8 h-[52px] rounded-full text-black shadow-lg">
           <li
             v-for="{ link, label } in links"
             :key="label"
+            class="border-r last:border-none border-white/40 pr-6 last:pr-0 font-medium"
           >
             <NuxtLink
               :to="link"
-              class="inline-block py-4 whitespace-nowrap uppercase"
+              class="whitespace-nowrap uppercase"
             >
               {{ label }}
             </NuxtLink>
@@ -45,8 +46,24 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
         </ul>
       </nav>
 
+      <NuxtLink
+        to="#contact"
+        class="hidden lg:flex group"
+      >
+        <div class="relative flex items-center uppercase text-lg bg-white text-black font-semibold px-7 py-3 rounded-full group-hover:rounded-r-none group-hover:pr-0 transition-all duration-300">
+          Contact
+        </div>
+
+        <div class="flex items-center justify-center w-[52px] h-[52px] transition-all duration-300 bg-white rounded-full group-hover:rounded-l-none">
+          <Icon
+            name="ic:baseline-east"
+            class="w-6 h-8 transition-all duration-300 -rotate-45 group-hover:rotate-0"
+          />
+        </div>
+      </NuxtLink>
+
       <button
-        class="p-4 lg:hidden"
+        class="flex items-center justify-center w-[52px] h-[52px] lg:hidden bg-white/40 backdrop-blur-sm text-gray-200 rounded-lg"
         aria-label="Toggle navigation"
         role="button"
         @click="mobileNavOpen = !mobileNavOpen"
@@ -68,24 +85,31 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
     <AnimationSlideIn>
       <nav
         v-if="mobileNavOpen"
-        class="lg:hidden min-h-full"
+        class="lg:hidden min-h-full relative z-10"
         role="navigation"
         aria-label="Main menu"
       >
-        <hr class="w-full mx-auto border-white">
-        <ul class="flex flex-col items-center justify-center p-8">
+        <ul class="flex flex-col items-center justify-center p-8 bg-black shadow-lg rounded-b-lg">
           <li
             v-for="{ link, label } in links"
             :key="label"
           >
             <NuxtLink
               :to="link"
-              class="inline-block py-4 whitespace-nowrap uppercase"
+              class="inline-block py-4 whitespace-nowrap uppercase text-white"
               @click="mobileNavOpen = false"
             >
               {{ label }}
             </NuxtLink>
           </li>
+          <NuxtLink
+            to="#contact"
+            @click="mobileNavOpen = false"
+          >
+            <div class="flex items-center uppercase text-lg bg-white text-black font-semibold rounded-full px-7 py-3">
+              Contact
+            </div>
+          </NuxtLink>
         </ul>
       </nav>
     </AnimationSlideIn>
