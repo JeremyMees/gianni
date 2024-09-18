@@ -65,7 +65,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
       </button>
     </div>
 
-    <AnimationsSlideIn>
+    <AnimationSlideIn>
       <nav
         v-if="mobileNavOpen"
         class="lg:hidden min-h-full"
@@ -88,6 +88,6 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
           </li>
         </ul>
       </nav>
-    </AnimationsSlideIn>
+    </AnimationSlideIn>
   </header>
 </template>
