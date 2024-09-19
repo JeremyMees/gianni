@@ -30,7 +30,7 @@ withDefaults(
         <img
           :src="image"
           alt="Content image"
-          class="w-full h-full object-cover rounded-2xl"
+          class="w-full h-full object-cover rounded-2xl shadow-lg"
         >
       </div>
       <div
