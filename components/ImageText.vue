@@ -18,7 +18,7 @@ withDefaults(
     ]"
   >
     <div
-      class="grid md:grid-cols-2 gap-x-10 content-wrapper rounded-b-2xl py-12"
+      class="grid md:grid-cols-2 gap-x-10 content-wrapper rounded-b-2xl pb-12 md:pt-12"
       :class="[
         imageRight ? 'md:bg-black md:text-white' : 'md:bg-white md:text-black',
       ]"
