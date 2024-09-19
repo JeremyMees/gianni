@@ -23,12 +23,14 @@ import { content } from '~/constants/home'
         image-right
       />
     </div>
-    <Film :images="content.marquee.images" />
+    <Film
+      :images="content.marquee.images"
+      class="mb-[160px] mt-20"
+    />
     <!-- <ImageBanner :image="content.imageBanner.image" /> -->
     <Faq
       :title="content.faq.title"
       :questions="content.faq.questions"
-      class="mt-[160px]"
     />
   </NuxtLayout>
 </template>

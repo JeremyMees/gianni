@@ -4,13 +4,13 @@ defineProps<{ image: string }>()
 
 <template>
   <div
-    class="bg-black py-2 w-[500px] px-1"
+    class="bg-black py-2 w-[300px] xl:w-[500px] 2xl:w-[700px] px-1 shadow-lg"
   >
-    <div class="pb-2 flex flex-items gap-2">
+    <div class="pb-2 flex gap-2 space-between">
       <span
-        v-for="i in 20"
+        v-for="i in 8"
         :key="`top-film-${i}`"
-        class="w-4 h-4 rounded bg-white"
+        class="min-w-6 grow h-4 rounded bg-white shadow-inner"
       />
     </div>
     <div class="flex gap-2 px-1">
@@ -23,11 +23,11 @@ defineProps<{ image: string }>()
         >
       </div>
     </div>
-    <div class="pt-2 flex flex-items gap-2">
+    <div class="pt-2 flex gap-2 space-between">
       <span
-        v-for="i in 20"
-        :key="`top-film-${i}`"
-        class="w-4 h-4 rounded bg-white"
+        v-for="i in 8"
+        :key="`bottom-film-${i}`"
+        class="min-w-6 grow h-4 rounded bg-white shadow-inner"
       />
     </div>
   </div>

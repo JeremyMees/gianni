@@ -42,8 +42,9 @@ onMounted(() => {
     <div
       v-if="splitImages[0].length"
       film-row1
-      class="flex w-screen rotate-1 shadow-lg"
+      class="flex w-screen rotate-1"
     >
+      <div class="bg-black min-w-[50px]" />
       <FilmCell
         v-for="image in splitImages[0]"
         :key="image"
@@ -53,13 +54,14 @@ onMounted(() => {
     <div
       v-if="splitImages[1].length"
       film-row2
-      class="flex w-screen -rotate-1 shadow-lg"
+      class="flex w-screen -rotate-1"
     >
       <FilmCell
         v-for="image in splitImages[1]"
         :key="image"
         :image="image"
       />
+      <div class="bg-black min-w-[50px]" />
     </div>
   </section>
 </template>
