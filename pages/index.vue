@@ -28,7 +28,7 @@ import { content } from '~/constants/home'
     <Faq
       :title="content.faq.title"
       :questions="content.faq.questions"
-      class="mt-20"
+      class="mt-[160px]"
     />
   </NuxtLayout>
 </template>

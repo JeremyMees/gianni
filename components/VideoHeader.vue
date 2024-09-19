@@ -7,7 +7,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="relative overflow-hidden w-full h-[400px] lg:h-auto lg:aspect-[22/9]">
+  <section class="relative overflow-hidden w-full h-[400px] lg:h-auto lg:aspect-[22/9]">
     <video
       ref="videoPlayer"
       :src="video"
@@ -26,5 +26,5 @@ defineProps<{
         {{ subtitle }}
       </span>
     </div>
-  </div>
+  </section>
 </template>
