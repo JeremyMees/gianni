@@ -23,7 +23,8 @@ import { content } from '~/constants/home'
         image-right
       />
     </div>
-    <ImageBanner :image="content.imageBanner.image" />
+    <Film :images="content.marquee.images" />
+    <!-- <ImageBanner :image="content.imageBanner.image" /> -->
     <Faq
       :title="content.faq.title"
       :questions="content.faq.questions"
