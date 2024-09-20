@@ -10,7 +10,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
 <template>
   <header
     ref="mobileNav"
-    class="transition-all duration-500 ease-in-out absolute left-0 right-0 z-10"
+    class="transition-all duration-300 ease-in-out absolute left-0 right-0 z-10"
   >
     <div class="content-wrapper flex items-center justify-between py-6 relative z-10">
       <NuxtLink
