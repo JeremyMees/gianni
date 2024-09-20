@@ -28,6 +28,11 @@ import { content } from '~/constants/home'
       :text="content.slider.text"
       :items="content.slider.items"
     />
+    <Testimonials
+      :title="content.testimonials.title"
+      :text="content.testimonials.text"
+      :items="content.testimonials.items"
+    />
     <Film :images="content.marquee.images" />
     <Faq
       :title="content.faq.title"

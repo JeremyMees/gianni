@@ -31,7 +31,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
           <li
             v-for="{ link, label } in links"
             :key="label"
-            class="border-r last:border-none border-white/40 pr-6 last:pr-0 font-medium"
+            class="border-r last:border-none border-white/40 pr-6 last:pr-0 font-bold"
           >
             <NuxtLink
               :to="link"

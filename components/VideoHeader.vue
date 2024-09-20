@@ -19,10 +19,10 @@ defineProps<{
       Your browser does not support the video tag.
     </video>
     <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center gap-8 text-white">
-      <h1 class="uppercase text-2xl font-bold">
+      <h1 class="uppercase text-3xl md:text-[50px] lg:text-[70px] font-black">
         {{ title }}
       </h1>
-      <span class="text-lg font-medium text-center">
+      <span class="text-xl font-bold text-center">
         {{ subtitle }}
       </span>
     </div>

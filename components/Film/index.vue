@@ -3,15 +3,7 @@ import { gsap } from 'gsap'
 
 const props = defineProps<{ images: string[] }>()
 
-const splitImages = computed<string[][]> (() => {
-  const result: string[][] = []
-
-  for (let i = 0; i < 2; i++) {
-    result.push(props.images.filter((_, index) => index % 2 === i))
-  }
-
-  return result
-})
+const splitImages = computed<string[][]> (() => splitArray(props.images, 2))
 
 onMounted(() => {
   const filmRow1 = document.querySelector('[film-row1]')

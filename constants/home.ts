@@ -45,6 +45,42 @@ export const content = {
       },
     ],
   },
+  testimonials: {
+    title: 'Geloof ons niet op ons woord',
+    text: 'Lees wat onze klanten te zeggen hebben',
+    items: [
+      {
+        image: 'https://picsum.photos/1000/400?random=1',
+        name: 'Jeremy',
+        text: 'Werken met Gianni was een geweldige ervaring! De video legde elk moment perfect vast en overtrof onze verwachtingen.',
+      },
+      {
+        image: 'https://picsum.photos/1000/400?random=2',
+        name: 'Jeremy',
+        text: 'De kwaliteit van de videoproductie was uitstekend, en alles werd precies op tijd geleverd. Absoluut een aanrader voor elk evenement!',
+      },
+      {
+        image: 'https://picsum.photos/1000/400?random=3',
+        name: 'Jeremy',
+        text: 'We konden niet gelukkiger zijn met het eindresultaat. Gianni bracht onze visie tot leven met creatieve shots en professionele editing.',
+      },
+      {
+        image: 'https://picsum.photos/1000/400?random=4',
+        name: 'Jeremy',
+        text: 'Uitstekende service van begin tot eind! Het team was attent, creatief, en leverde een prachtige video waar we voor altijd van zullen genieten.',
+      },
+      {
+        image: 'https://picsum.photos/1000/400?random=5',
+        name: 'Jeremy',
+        text: 'Hun oog voor detail en verhaalvertelling is geweldig! We voelden echt dat ze begrepen wat we wilden en ze leverden meer dan we hadden verwacht.',
+      },
+      {
+        image: 'https://picsum.photos/1000/400?random=6',
+        name: 'Jeremy',
+        text: 'De video heeft ons echt omvergeblazen! Professioneel, prettig om mee te werken, en het resultaat was absoluut verbluffend.',
+      },
+    ],
+  },
   marquee: {
     images: [
       'https://picsum.photos/1000/400?random=1',

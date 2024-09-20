@@ -7,8 +7,14 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
+    '@nuxtjs/google-fonts',
   ],
   eslint: {
     config: { stylistic: true },
+  },
+  googleFonts: {
+    families: {
+      'DM Sans': true,
+    },
   },
 })

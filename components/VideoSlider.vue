@@ -28,7 +28,7 @@ watch(() => swiperRef.value?.$el.swiper.activeIndex, (index, oldVal) => {
       <h2 class="text-4xl font-bold uppercase pb-6">
         {{ title }}
       </h2>
-      <p>
+      <p class="max-w-prose mx-auto">
         {{ text }}
       </p>
     </div>
@@ -65,7 +65,7 @@ watch(() => swiperRef.value?.$el.swiper.activeIndex, (index, oldVal) => {
         >
           <p
             v-if="i === swiperRef.$el.swiper.activeIndex"
-            class="font-bold text-lg uppercase"
+            class="font-black text-2xl uppercase"
           >
             {{ items[i].name }}
           </p>

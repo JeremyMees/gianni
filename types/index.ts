@@ -8,3 +8,10 @@ export interface IconLink {
   link: string
   label: string
 }
+
+export interface Testimonial {
+  image: string
+  name: string
+  text: string
+  link?: string
+}

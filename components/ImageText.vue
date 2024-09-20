@@ -38,7 +38,7 @@ withDefaults(
           class="py-4 flex flex-col justify-center gap-y-3"
           :class="[imageRight ? 'md:order-1' : 'md:order-2']"
         >
-          <h3 class="font-bold text-lg uppercase">
+          <h3 class="font-bold text-xl uppercase">
             {{ title }}
           </h3>
           <p>
