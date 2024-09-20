@@ -10,12 +10,9 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
 <template>
   <header
     ref="mobileNav"
-    class="transition-all duration-300 ease-in-out py-6 absolute left-0 right-0 z-10"
-    :class="{
-      'shadow-xl bg-black pb-0': mobileNavOpen,
-    }"
+    class="transition-all duration-500 ease-in-out absolute left-0 right-0 z-10"
   >
-    <div class="content-wrapper flex items-center justify-between">
+    <div class="content-wrapper flex items-center justify-between py-6 relative z-10">
       <NuxtLink
         class="py-4"
         to="/"
@@ -85,11 +82,11 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
     <AnimationSlideIn>
       <nav
         v-if="mobileNavOpen"
-        class="lg:hidden min-h-full relative z-10"
+        class="lg:hidden bg-black rounded-b-[100px] absolute top-0 left-0 right-0 pt-20"
         role="navigation"
         aria-label="Main menu"
       >
-        <ul class="flex flex-col items-center justify-center p-8 bg-black shadow-lg rounded-b-lg">
+        <ul class="flex flex-col items-center justify-center p-8">
           <li
             v-for="{ link, label } in links"
             :key="label"
