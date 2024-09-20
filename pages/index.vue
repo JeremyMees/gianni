@@ -23,11 +23,12 @@ import { content } from '~/constants/home'
         image-right
       />
     </div>
-    <Film
-      :images="content.marquee.images"
-      class="mb-[160px] mt-20"
+    <VideoSlider
+      :title="content.slider.title"
+      :text="content.slider.text"
+      :items="content.slider.items"
     />
-    <!-- <ImageBanner :image="content.imageBanner.image" /> -->
+    <Film :images="content.marquee.images" />
     <Faq
       :title="content.faq.title"
       :questions="content.faq.questions"

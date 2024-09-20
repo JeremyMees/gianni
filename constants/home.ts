@@ -15,6 +15,36 @@ export const content = {
     image: 'https://picsum.photos/600/200',
     id: 'about',
   },
+  slider: {
+    title: 'Jullie verhaal',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae vel, harum ea labore facere cupiditate corporis laboriosam non esse sint voluptate incidunt adipisci quidem quaerat quos fugit sunt voluptatum asperiores tempore laborum ipsam eos facilis odit voluptatibus. Error explicabo officia sunt nam vero quod minima tenetur iusto, ullam impedit repellat!',
+    items: [
+      {
+        name: 'Lies & Jeremy 1',
+        video: '_e9yMqmXWo0',
+      },
+      {
+        name: 'Lies & Jeremy 2',
+        video: '_e9yMqmXWo0',
+      },
+      {
+        name: 'Lies & Jeremy 3',
+        video: '_e9yMqmXWo0',
+      },
+      {
+        name: 'Lies & Jeremy 4',
+        video: '_e9yMqmXWo0',
+      },
+      {
+        name: 'Lies & Jeremy 5',
+        video: '_e9yMqmXWo0',
+      },
+      {
+        name: 'Lies & Jeremy 6',
+        video: '_e9yMqmXWo0',
+      },
+    ],
+  },
   marquee: {
     images: [
       'https://picsum.photos/1000/400?random=1',
@@ -32,9 +62,6 @@ export const content = {
       'https://picsum.photos/1000/400?random=13',
       'https://picsum.photos/1000/400?random=14',
     ],
-  },
-  imageBanner: {
-    image: 'https://picsum.photos/1000/400',
   },
   faq: {
     title: 'FAQ',

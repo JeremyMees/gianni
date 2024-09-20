@@ -38,7 +38,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="flex flex-col gap-6 py-4 overflow-hidden">
+  <section class="flex flex-col gap-6 py-4 overflow-hidden mb-[160px] mt-20">
     <div
       v-if="splitImages[0].length"
       film-row1
