@@ -21,27 +21,27 @@ export const content = {
     items: [
       {
         name: 'Lies & Jeremy 1',
-        video: '_e9yMqmXWo0',
+        video: '/videos/placeholder.mp4',
       },
       {
         name: 'Lies & Jeremy 2',
-        video: '_e9yMqmXWo0',
+        video: '/videos/placeholder.mp4',
       },
       {
         name: 'Lies & Jeremy 3',
-        video: '_e9yMqmXWo0',
+        video: '/videos/placeholder.mp4',
       },
       {
         name: 'Lies & Jeremy 4',
-        video: '_e9yMqmXWo0',
+        video: '/videos/placeholder.mp4',
       },
       {
         name: 'Lies & Jeremy 5',
-        video: '_e9yMqmXWo0',
+        video: '/videos/placeholder.mp4',
       },
       {
         name: 'Lies & Jeremy 6',
-        video: '_e9yMqmXWo0',
+        video: '/videos/placeholder.mp4',
       },
     ],
   },

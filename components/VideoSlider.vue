@@ -47,8 +47,8 @@ watch(() => swiperRef.value?.$el.swiper.activeIndex, (index, oldVal) => {
         class="max-w-[80vw] md:max-w-[55vw] mx-5"
       >
         <VideoPlayer
-          :id="item.video"
           ref="videos"
+          :path="item.video"
           alt="Carousel image"
           class="rounded-xl h-full md:w-full object-cover overflow-hidden"
         />

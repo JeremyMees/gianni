@@ -3,7 +3,10 @@ import { links } from '~/constants/footer'
 </script>
 
 <template>
-  <footer class="bg-black text-white rounded-t-2xl lg:rounded-t-[100px]">
+  <footer
+    id="contact"
+    class="bg-black text-white rounded-t-2xl lg:rounded-t-[100px]"
+  >
     <div class="content-wrapper grid lg:grid-cols-4 gap-y-8 py-14 lg:pt-20">
       <NuxtLink to="/">
         Kamino Media

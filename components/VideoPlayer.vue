@@ -1,7 +1,7 @@
 <script setup lang="ts">
 withDefaults(
   defineProps<{
-    id: string
+    path: string
     autoplay?: boolean
     controls?: boolean
     muted?: boolean
@@ -39,7 +39,7 @@ function pauseVideo(): void {
   >
     <video
       ref="videoPlayer"
-      src="/videos/placeholder.mp4"
+      :src="path"
       :autoplay="autoplay"
       :muted="muted"
       :loop="loop"
