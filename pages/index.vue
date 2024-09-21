@@ -33,7 +33,7 @@ import { content } from '~/constants/home'
       :text="content.testimonials.text"
       :items="content.testimonials.items"
     />
-    <Film :images="content.marquee.images" />
+    <ImageBanner :image="content.banner.image" />
     <Faq
       :title="content.faq.title"
       :questions="content.faq.questions"

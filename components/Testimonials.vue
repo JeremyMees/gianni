@@ -27,38 +27,40 @@ const testimonials = computed<Testimonial[][]>(() => {
         {{ text }}
       </p>
     </div>
-    <div
-      v-if="testimonials"
-      class="grid gap-8 content-wrapper"
-      :style="{
-        gridTemplateColumns: `repeat(${testimonials.length}, minmax(0, 1fr))`,
-      }"
-    >
+    <ClientOnly>
       <div
-        v-for="(column, i) in testimonials"
-        :key="i"
-        class="flex flex-col gap-8"
+        v-if="testimonials"
+        class="grid gap-8 content-wrapper"
+        :style="{
+          gridTemplateColumns: `repeat(${testimonials.length}, minmax(0, 1fr))`,
+        }"
       >
         <div
-          v-for="item in column"
-          :key="item.name"
-          class="bg-gray-100 p-6 rounded-[32px] shadow"
+          v-for="(column, i) in testimonials"
+          :key="i"
+          class="flex flex-col gap-8"
         >
-          <div class="flex items-center gap-4">
-            <img
-              :src="item.image"
-              :alt="item.name"
-              class="w-10 h-10 rounded-full"
-            >
-            <h4 class="font-bold">
-              {{ item.name }}
-            </h4>
+          <div
+            v-for="item in column"
+            :key="item.name"
+            class="bg-gray-100 p-6 rounded-[32px] shadow"
+          >
+            <div class="flex items-center gap-4">
+              <img
+                :src="item.image"
+                :alt="item.name"
+                class="w-10 h-10 rounded-full"
+              >
+              <h4 class="font-bold">
+                {{ item.name }}
+              </h4>
+            </div>
+            <p class="mt-2">
+              {{ item.text }}
+            </p>
           </div>
-          <p class="mt-2">
-            {{ item.text }}
-          </p>
         </div>
       </div>
-    </div>
+    </ClientOnly>
   </section>
 </template>
