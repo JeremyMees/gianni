@@ -51,11 +51,11 @@ const testimonials = computed<Testimonial[][]>(() => {
               <img
                 :src="item.image"
                 :alt="item.name"
-                class="w-10 h-10 rounded-full"
+                class="w-10 h-10 rounded-full aspect-square"
               >
-              <h4 class="font-bold">
+              <p class="font-bold">
                 {{ item.name }}
-              </h4>
+              </p>
             </div>
             <p class="mt-2">
               {{ item.text }}

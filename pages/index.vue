@@ -23,18 +23,18 @@ import { content } from '~/constants/home'
         image-right
       />
     </div>
-    <VideoSlider
+    <LazyVideoSlider
       :title="content.slider.title"
       :text="content.slider.text"
       :items="content.slider.items"
     />
-    <Testimonials
+    <LazyTestimonials
       :title="content.testimonials.title"
       :text="content.testimonials.text"
       :items="content.testimonials.items"
     />
-    <ImageBanner :image="content.banner.image" />
-    <Faq
+    <LazyImageBanner :image="content.banner.image" />
+    <LazyFaq
       :title="content.faq.title"
       :questions="content.faq.questions"
     />
