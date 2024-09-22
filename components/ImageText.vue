@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { gsap } from 'gsap'
+
 withDefaults(
   defineProps<{
     image: string
@@ -9,6 +11,20 @@ withDefaults(
     imageRight: false,
   },
 )
+
+const id = useId()
+
+onMounted(() => {
+  gsap.from(`#img-${id}`, {
+    scrollTrigger: {
+      trigger: `#img-container-${id}`,
+      toggleActions: 'restart none none none',
+      scrub: 1,
+    },
+    scale: 1.3,
+    ease: 'power2.out',
+  })
+})
 </script>
 
 <template>
@@ -25,18 +41,21 @@ withDefaults(
     >
       <div class="grid md:grid-cols-2 gap-x-10 content-wrapper">
         <div
-          class="py-4 aspect-[14/9] overflow-hidden"
+          :id="`img-container-${id}`"
+          class="aspect-[14/9] overflow-hidden rounded-2xl"
           :class="[imageRight ? 'md:order-2' : 'md:order-1']"
         >
           <img
+            :id="`img-${id}`"
             :src="image"
             alt="Content image"
-            class="w-full h-full object-cover rounded-2xl shadow-lg"
+            class="scale-[1.05] w-full h-full object-cover"
           >
         </div>
         <div
           class="py-4 flex flex-col justify-center gap-y-3"
           :class="[imageRight ? 'md:order-1' : 'md:order-2']"
+          :data-aos="imageRight ? 'fade-right' : 'fade-left'"
         >
           <h3 class="font-bold text-xl uppercase">
             {{ title }}

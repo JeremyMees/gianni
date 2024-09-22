@@ -7,14 +7,19 @@ import { links } from '~/constants/footer'
     id="contact"
     class="bg-black text-white rounded-t-2xl lg:rounded-t-[100px]"
   >
-    <div class="content-wrapper grid lg:grid-cols-4 gap-y-8 py-14 lg:pt-20">
-      <NuxtLink to="/">
+    <div class="content-wrapper flex flex-wrap flex-col sm:flex-row lg:grid lg:grid-cols-4 gap-y-8 gap-x-16 justify-between lg:gap-x-0 py-14 lg:pt-20">
+      <NuxtLink
+        to="/"
+        data-aos="fade-right"
+      >
         Kamino Media
       </NuxtLink>
       <div
-        v-for="column in links"
+        v-for="(column, i) in links"
         :key="column.title"
         class="space-y-4"
+        data-aos="fade-up"
+        :data-aos-delay="100 * (i + 1)"
       >
         <span class="uppercase font-bold">
           {{ column.title }}

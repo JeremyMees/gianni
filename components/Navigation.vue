@@ -16,6 +16,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
       <NuxtLink
         class="py-4"
         to="/"
+        data-aos="fade-right"
       >
         <span class="uppercase text-white text-2xl font-bold">
           Kamino Media
@@ -26,6 +27,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
         class="hidden lg:block"
         role="navigation"
         aria-label="Main menu"
+        data-aos="fade-down"
       >
         <ul class="flex items-center gap-6 bg-white/40 backdrop-blur-sm px-8 h-[52px] rounded-full text-black shadow-lg">
           <li
@@ -46,6 +48,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
       <NuxtLink
         to="#contact"
         class="hidden lg:flex group"
+        data-aos="fade-left"
       >
         <div class="relative flex items-center uppercase text-lg bg-white text-black font-semibold px-7 py-3 rounded-full group-hover:rounded-r-none group-hover:pr-0 transition-all duration-300">
           Contact
@@ -63,6 +66,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
         class="flex items-center justify-center w-[52px] h-[52px] lg:hidden bg-white/40 backdrop-blur-sm text-gray-200 rounded-lg"
         aria-label="Toggle navigation"
         role="button"
+        data-aos="fade-left"
         @click="mobileNavOpen = !mobileNavOpen"
       >
         <Icon

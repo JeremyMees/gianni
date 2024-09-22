@@ -25,10 +25,17 @@ watch(() => swiperRef.value?.$el.swiper.activeIndex, (index, oldVal) => {
 <template>
   <section class="mb-20">
     <div class="content-wrapper text-center pb-10">
-      <h2 class="text-4xl font-bold uppercase pb-6">
+      <h2
+        class="text-4xl font-bold uppercase pb-6"
+        data-aos="fade-up"
+      >
         {{ title }}
       </h2>
-      <p class="max-w-prose mx-auto">
+      <p
+        class="max-w-prose mx-auto"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
         {{ text }}
       </p>
     </div>

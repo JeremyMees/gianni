@@ -41,9 +41,11 @@ const testimonials = computed<Testimonial[][]>(() => {
           class="flex flex-col gap-8"
         >
           <div
-            v-for="item in column"
+            v-for="(item, j) in column"
             :key="item.name"
             class="bg-gray-100 p-6 rounded-[32px] shadow"
+            data-aos="fade-up"
+            :data-aos-delay="(100 * i) + (100 * (j + 1))"
           >
             <div class="flex items-center gap-4">
               <img

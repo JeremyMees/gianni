@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
     '@nuxtjs/google-fonts',
+    'nuxt-aos',
   ],
   eslint: {
     config: { stylistic: true },
@@ -16,5 +17,9 @@ export default defineNuxtConfig({
     families: {
       'DM Sans': true,
     },
+  },
+  aos: {
+    once: true,
+    duration: 500,
   },
 })
