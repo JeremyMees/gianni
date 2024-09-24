@@ -2,7 +2,7 @@ export const content = {
   header: {
     title: 'Kamino media',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.',
-    video: '/videos/placeholder.mp4',
+    video: '/videos/banner.mp4',
   },
   ourApproach: {
     title: 'Onze aanpak',
