@@ -12,7 +12,7 @@ import { links } from '~/constants/footer'
         to="/"
         data-aos="fade-right"
       >
-        Kamino Media
+        <SvgoLogo class="min-w-[200px] min-h-[100px] text-white" />
       </NuxtLink>
       <div
         v-for="(column, i) in links"

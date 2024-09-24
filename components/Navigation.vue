@@ -18,9 +18,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
         to="/"
         data-aos="fade-right"
       >
-        <span class="uppercase text-white text-2xl font-bold">
-          Kamino Media
-        </span>
+        <SvgoFullLogo class="min-w-[200px] min-h-[100px] text-white" />
       </NuxtLink>
 
       <nav
