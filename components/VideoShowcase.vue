@@ -7,13 +7,34 @@ defineProps<{
   variant?: boolean
   last?: boolean
 }>()
+
+const { $refreshHardAos } = useNuxtApp()
+const isSmall = useMediaQuery('(max-width: 768px)')
+
+const sectionContainer = ref<HTMLTableSectionElement>()
+const videoContainer = ref<HTMLDivElement>()
+const textContainer = ref<HTMLDivElement>()
+
+onMounted(() => {
+  if (isSmall.value) {
+    videoContainer.value?.removeAttribute('data-aos')
+    textContainer.value?.removeAttribute('data-aos')
+  }
+  else {
+    sectionContainer.value?.removeAttribute('data-aos')
+  }
+
+  $refreshHardAos()
+})
 </script>
 
 <template>
   <section
+    ref="sectionContainer"
     :class="[
       variant || last ? 'md:bg-white md:text-black' : 'md:bg-black md:text-white',
     ]"
+    data-aos="fade-up"
   >
     <div
       class="rounded-b-2xl pb-12 md:pt-12"
@@ -22,15 +43,23 @@ defineProps<{
       ]"
     >
       <div class="grid md:grid-cols-2 gap-x-10 content-wrapper">
-        <div class="aspect-video overflow-hidden rounded-2xl shadow-lg">
+        <div
+          ref="videoContainer"
+          class="aspect-video overflow-hidden rounded-2xl shadow-lg"
+          data-aos="fade-right"
+        >
           <VideoPlayer
             :path="video"
             class="w-full h-full object-cover"
           />
         </div>
-        <div class="py-4 flex flex-col justify-center gap-y-3">
+        <div
+          ref="textContainer"
+          class="py-4 flex flex-col justify-center gap-y-3"
+          data-aos="fade-left"
+        >
           <h3 class="font-bold text-xl uppercase">
-            {{ name }}
+            {{ name }} {{ isSmall }}
           </h3>
           <p>
             {{ text }}
