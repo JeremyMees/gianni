@@ -11,9 +11,13 @@ const isSmall = useMediaQuery('(max-width: 768px)')
 const isLarge = useMediaQuery('(min-width: 1440px)')
 
 const testimonials = computed<Testimonial[][]>(() => {
-  const amount = isSmall.value ? 1 : isLarge.value ? 3 : 2
+  const columns = isSmall.value ? 1 : isLarge.value ? 3 : 2
+  const amount = isSmall.value ? 3 : 6
 
-  return splitArray<Testimonial>(props.items, amount)
+  return splitArray<Testimonial>(
+    randomArrayItems<Testimonial>(props.items, amount),
+    columns,
+  )
 })
 </script>
 
@@ -49,10 +53,20 @@ const testimonials = computed<Testimonial[][]>(() => {
           >
             <div class="flex items-center gap-4">
               <img
+                v-if="item.image"
                 :src="item.image"
                 :alt="item.name"
                 class="w-10 h-10 rounded-full aspect-square"
               >
+              <div
+                v-else
+                class="w-10 h-10 rounded-full aspect-square bg-white flex flex-col items-center justify-center"
+              >
+                <Icon
+                  name="lucide:user"
+                  class="w-6 h-6"
+                />
+              </div>
               <p class="font-bold">
                 {{ item.name }}
               </p>

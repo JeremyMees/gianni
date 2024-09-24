@@ -60,7 +60,6 @@ export const content = {
         text: 'De kwaliteit van de videoproductie was uitstekend, en alles werd precies op tijd geleverd. Absoluut een aanrader voor elk evenement!',
       },
       {
-        image: 'https://picsum.photos/1000/400?random=3',
         name: 'Jeremy',
         text: 'We konden niet gelukkiger zijn met het eindresultaat. Gianni bracht onze visie tot leven met creatieve shots en professionele editing.',
       },
@@ -78,6 +77,14 @@ export const content = {
         image: 'https://picsum.photos/1000/400?random=6',
         name: 'Jeremy',
         text: 'De video heeft ons echt omvergeblazen! Professioneel, prettig om mee te werken, en het resultaat was absoluut verbluffend.',
+      },
+      {
+        name: 'Lorem ipsum',
+        text: 'lor sit amet consectetur adipisicing elit. Quia, cupiditate. lor sit amet consectetur adipisicing elit. Quia, cupiditate.',
+      },
+      {
+        name: 'Lorem ipsum',
+        text: 'lor sit amet consectetur adipisicing elit. Quia, cupiditate.',
       },
     ],
   },
