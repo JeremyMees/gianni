@@ -21,11 +21,11 @@ export const content = {
     items: [
       {
         name: 'Lies & Jeremy 1',
-        video: '/videos/placeholder.mp4',
+        video: '/videos/banner.mp4',
       },
       {
         name: 'Lies & Jeremy 2',
-        video: '/videos/placeholder.mp4',
+        video: '/videos/banner.mp4',
       },
       {
         name: 'Lies & Jeremy 3',

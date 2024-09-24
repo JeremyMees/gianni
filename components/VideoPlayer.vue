@@ -34,7 +34,7 @@ function pauseVideo(): void {
 
 <template>
   <div
-    class="relative"
+    class="relative aspect-video flex flex-col justify-center bg-black rounded-xl overflow-hidden"
     @click="isPlaying ? pauseVideo() : playVideo()"
   >
     <video
@@ -45,6 +45,7 @@ function pauseVideo(): void {
       :loop="loop"
       :controls="controls"
       playsinline
+      class="w-full"
       @playing="isPlaying = true"
       @ended="isPlaying = false"
       @pause="isPlaying = false"

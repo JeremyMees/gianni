@@ -9,6 +9,8 @@ defineProps<{
   items: { name: string, video: string }[]
 }>()
 
+const isSmall = useMediaQuery('(max-width: 768px)')
+
 const swiperRef = ref<InstanceType<typeof Swiper>>()
 const videos = ref<InstanceType<typeof VideoPlayer>[]>()
 
@@ -45,7 +47,7 @@ watch(() => swiperRef.value?.$el.swiper.activeIndex, (index, oldVal) => {
       grab-cursor
       centered-slides
       rewind
-      :initial-slide="1"
+      :initial-slide="isSmall || items.length < 3 ? 0 : 1"
       :speed="1000"
     >
       <SwiperSlide
@@ -56,14 +58,12 @@ watch(() => swiperRef.value?.$el.swiper.activeIndex, (index, oldVal) => {
         <VideoPlayer
           ref="videos"
           :path="item.video"
-          alt="Carousel image"
-          class="rounded-xl h-full md:w-full object-cover overflow-hidden"
         />
       </SwiperSlide>
     </Swiper>
     <div
       v-if="swiperRef"
-      class="content-wrapper text-center pt-10"
+      class="content-wrapper text-center mt-10 h-6 overflow-hidden"
     >
       <AnimationExpand>
         <template
