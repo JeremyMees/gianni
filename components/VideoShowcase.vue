@@ -59,7 +59,7 @@ onMounted(() => {
           data-aos="fade-left"
         >
           <h3 class="font-bold text-xl uppercase">
-            {{ name }} {{ isSmall }}
+            {{ name }}
           </h3>
           <p>
             {{ text }}
