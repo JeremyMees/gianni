@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { content } from '~/constants/bruiloften'
+import { VideoShowcase, LazyVideoShowcase } from '#components'
 </script>
 
 <template>
@@ -10,7 +11,8 @@ import { content } from '~/constants/bruiloften'
       :image="content.header.image"
     />
     <div class="bg-white pb-20 pt-4 rounded-t-2xl relative -top-4">
-      <VideoShowcase
+      <component
+        :is="i < 2 ? VideoShowcase: LazyVideoShowcase"
         v-for="(item, i) in content.weddings"
         :key="item.name"
         :name="item.name"
