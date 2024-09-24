@@ -12,9 +12,9 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
     ref="mobileNav"
     class="transition-all duration-300 ease-in-out absolute left-0 right-0 z-10"
   >
-    <div class="content-wrapper flex items-center justify-between py-6 relative z-10">
+    <div class="content-wrapper flex items-center justify-between lg:grid lg:grid-cols-12 py-6 relative z-10">
       <NuxtLink
-        class="py-4"
+        class="py-4 col-span-3"
         to="/"
         data-aos="fade-right"
       >
@@ -22,7 +22,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
       </NuxtLink>
 
       <nav
-        class="hidden lg:block"
+        class="hidden lg:flex justify-center col-span-6"
         role="navigation"
         aria-label="Main menu"
         data-aos="fade-down"
@@ -45,7 +45,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
 
       <NuxtLink
         to="#contact"
-        class="hidden lg:flex group"
+        class="hidden lg:flex group col-span-3 justify-end"
         data-aos="fade-left"
       >
         <div class="relative flex items-center uppercase text-lg bg-white text-black font-semibold px-7 py-3 rounded-full group-hover:rounded-r-none group-hover:pr-0 transition-all duration-300">
