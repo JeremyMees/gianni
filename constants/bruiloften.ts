@@ -4,6 +4,7 @@ export const content = {
     subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.',
     image: 'https://picsum.photos/600/200',
   },
+  teaser: 'De video\'s dienen als teasers om de privacy van de koppels te beschermen. Wanneer de koppels akkoord gaan, wordt er een link naar de volledige video gedeeld.',
   weddings: [
     {
       name: 'Lies & Jeremy 1',
