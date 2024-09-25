@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     'nuxt-aos',
     'nuxt-svgo',
+    '@nuxthq/studio',
   ],
   eslint: {
     config: { stylistic: true },
