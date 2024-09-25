@@ -1,6 +1,17 @@
 ---
 title: Kamino Media
-description: meta description of the page
+description: Ontdek professionele videografie en videoproductie diensten voor bruiloften, evenementen en bedrijven. Laat jouw verhaal op unieke wijze vastleggen door een ervaren videograaf in limburg.
+image:
+  src: '/img/social-share.png'
+  alt: 'Kamino Media'
+  width: 1200
+  height: 630
+head:
+  meta:
+    - name: 'keywords'
+      content: 'Videograaf, Videoproductie, Professionele videografie, Creatieve videografie, Videografie diensten, Video editing, Video maker, Videograaf limburg, Films en video’s, Cinematografie'
+    - name: 'robots'
+      content: 'index, follow'
 ---
 
 ::video-header

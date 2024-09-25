@@ -1,6 +1,17 @@
 ---
 title: Kamino Media | Bruiloften
-description: meta description of the page
+description: Bekijk prachtige trouwvideo’s die de mooiste momenten van bruiloften vastleggen. Laat je inspireren door onze professionele huwelijksvideografie en unieke stijl.
+image:
+  src: '/img/social-share-bruiloften.png'
+  alt: 'Kamino Media Bruiloften'
+  width: 1200
+  height: 630
+head:
+  meta:
+    - name: 'keywords'
+      content: 'Bruiloft videograaf, Bruiloft video-opnames, Trouwvideo’s, Huwelijksvideografie, Trouwdag videoproductie, Bruiloft video pakketten, Videograaf bruiloften, Huwelijksfilm, Bruidsvideografie, Huwelijk video montages'
+    - name: 'robots'
+      content: 'index, follow'
 ---
 
 ::image-header
