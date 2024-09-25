@@ -17,6 +17,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
         class="py-4 col-span-3"
         to="/"
         data-aos="fade-right"
+        aria-label="Link to Home"
       >
         <SvgoFullLogo class="min-w-[200px] min-h-[100px] text-white" />
       </NuxtLink>
@@ -36,6 +37,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
             <NuxtLink
               :to="link"
               class="whitespace-nowrap uppercase"
+              :aria-label="`Link to ${label}`"
             >
               {{ label }}
             </NuxtLink>
@@ -47,6 +49,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
         to="#contact"
         class="hidden lg:flex group col-span-3 justify-end"
         data-aos="fade-left"
+        aria-label="Scroll to Contact"
       >
         <div class="relative flex items-center uppercase text-lg bg-white text-black font-semibold px-7 py-3 rounded-full group-hover:rounded-r-none group-hover:pr-0 transition-all duration-300">
           Contact
@@ -96,6 +99,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
             <NuxtLink
               :to="link"
               class="inline-block py-4 whitespace-nowrap uppercase text-white"
+              :aria-label="`Link to ${label}`"
               @click="mobileNavOpen = false"
             >
               {{ label }}
@@ -103,6 +107,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
           </li>
           <NuxtLink
             to="#contact"
+            aria-label="Scroll to Contact"
             @click="mobileNavOpen = false"
           >
             <div class="flex items-center uppercase text-lg bg-white text-black font-semibold rounded-full px-7 py-3">

@@ -7,6 +7,8 @@ image:
   width: 1200
   height: 630
 head:
+  htmlAttrs:
+    lang: nl
   meta:
     - name: keywords
       content: Videografie prijzen, Videoproductie tarieven, Kosten videograaf, Prijslijst videografie, Tarieven videodiensten, Budget videografie, Betaalbare videografie, Videograaf kosten, Videoproductie pakketten, Prijzen video-opnamen

@@ -7,6 +7,8 @@ image:
   width: 1200
   height: 630
 head:
+  htmlAttrs:
+    lang: nl
   meta:
     - name: keywords
       content: Bruiloft videograaf, Bruiloft video-opnames, Trouwvideo’s, Huwelijksvideografie, Trouwdag videoproductie, Bruiloft video pakketten, Videograaf bruiloften, Huwelijksfilm, Bruidsvideografie, Huwelijk video montages

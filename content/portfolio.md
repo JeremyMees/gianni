@@ -7,6 +7,8 @@ image:
   width: 1200
   height: 630
 head:
+  htmlAttrs:
+    lang: nl
   meta:
     - name: keywords
       content: Videografie portfolio, Projecten videograaf, Video showcase, Films en video’s, Creatieve videoprojecten, Cinematografie voorbeelden, Video reels, Portfolio videoproductie, Voorbeelden video werk, Video creaties

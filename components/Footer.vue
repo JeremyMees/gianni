@@ -11,6 +11,7 @@ import { links } from '~/constants/footer'
       <NuxtLink
         to="/"
         data-aos="fade-right"
+        aria-label="Link to Home"
       >
         <SvgoLogo class="min-w-[200px] min-h-[100px] text-white" />
       </NuxtLink>
@@ -32,6 +33,7 @@ import { links } from '~/constants/footer'
             <NuxtLink
               :to="item.link"
               class="flex items-center gap-2"
+              :aria-label="`Link to ${item.label}`"
             >
               <Icon
                 v-if="'icon' in item"
