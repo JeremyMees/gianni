@@ -13,6 +13,11 @@ export default defineNuxtConfig({
     '@nuxthq/studio',
     '@nuxt/content',
   ],
+  runtimeConfig: {
+    public: {
+      url: process.env.PUBLIC_URL,
+    },
+  },
   eslint: {
     config: { stylistic: true },
   },
