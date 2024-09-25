@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Swiper, SwiperSlide } from 'swiper/vue'
-import VideoPlayer from './VideoPlayer.vue'
+import VideoPlayer from '../VideoPlayer.vue'
 import 'swiper/css'
 
 defineProps<{

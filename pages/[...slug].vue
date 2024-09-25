@@ -1,7 +1,5 @@
 <template>
   <NuxtLayout>
-    <div class="font-bold">
-      prijzen
-    </div>
+    <ContentDoc />
   </NuxtLayout>
 </template>

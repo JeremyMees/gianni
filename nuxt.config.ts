@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     'nuxt-aos',
     'nuxt-svgo',
     '@nuxthq/studio',
+    '@nuxt/content',
   ],
   eslint: {
     config: { stylistic: true },
