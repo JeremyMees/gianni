@@ -23,3 +23,36 @@ subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupidi
 title: Prijzen
 ---
 ::
+
+::price-section
+---
+prices:
+  - name: Pakket 1
+    price: 800
+    features:
+      - 1 Videograaf
+      - Ceremonie, receptie, sfeerbeelden en feest tot 10u
+      - Exl. km vergoeding
+      - Ontmoetingsgesprek
+      - Oplevering binnen 1 maand
+  - name: Pakket 2
+    price: 1000
+    features:
+      - 1 Videograaf
+      - Klaarmaken, ceremonie, receptie, sfeerbeelden en feest tot 1u
+      - Incl vervoerskosten
+      - Dronebeelden
+      - Ontmoetingsgesprek
+      - Oplevering binnen 1 maand
+  - name: Pakket 3
+    price: 1500
+    features:
+      - Optie tot 2de Videograaf
+      - Gehele dag aanwezig
+      - Voice over (geloften, toespraken, ...)
+      - Incl vervoerskosten
+      - Dronebeelden
+      - Ontmoetingsgesprek
+      - Oplevering binnen 2 maanden
+---
+::

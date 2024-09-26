@@ -45,23 +45,9 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
         </ul>
       </nav>
 
-      <NuxtLink
-        to="#contact"
-        class="hidden lg:flex group col-span-3 justify-end"
-        data-aos="fade-left"
-        aria-label="Scroll to Contact"
-      >
-        <div class="relative flex items-center uppercase text-lg bg-white text-black font-semibold px-7 py-3 rounded-full group-hover:rounded-r-none group-hover:pr-0 transition-all duration-300">
-          Contact
-        </div>
-
-        <div class="flex items-center justify-center w-[52px] h-[52px] transition-all duration-300 bg-white rounded-full group-hover:rounded-l-none">
-          <Icon
-            name="ic:baseline-east"
-            class="w-6 h-8 transition-all duration-300 -rotate-45 group-hover:rotate-0"
-          />
-        </div>
-      </NuxtLink>
+      <div class="hidden lg:flex col-span-3 justify-end">
+        <ContactButton />
+      </div>
 
       <button
         class="flex items-center justify-center w-[52px] h-[52px] lg:hidden bg-white/40 backdrop-blur-sm text-gray-200 rounded-lg"
@@ -87,7 +73,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
     <AnimationSlideIn>
       <nav
         v-if="mobileNavOpen"
-        class="lg:hidden bg-black rounded-b-[100px] absolute top-0 left-0 right-0 pt-20"
+        class="lg:hidden bg-black rounded-b-[32px] absolute top-0 left-0 right-0 pt-[100px]"
         role="navigation"
         aria-label="Main menu"
       >
@@ -105,15 +91,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
               {{ label }}
             </NuxtLink>
           </li>
-          <NuxtLink
-            to="#contact"
-            aria-label="Scroll to Contact"
-            @click="mobileNavOpen = false"
-          >
-            <div class="flex items-center uppercase text-lg bg-white text-black font-semibold rounded-full px-7 py-3">
-              Contact
-            </div>
-          </NuxtLink>
+          <ContactButton @click="mobileNavOpen = false" />
         </ul>
       </nav>
     </AnimationSlideIn>

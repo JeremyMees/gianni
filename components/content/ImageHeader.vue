@@ -7,7 +7,7 @@ defineProps<{
 </script>
 
 <template>
-  <section class="relative overflow-hidden w-full h-[400px] lg:h-auto lg:aspect-[22/9]">
+  <section class="relative overflow-hidden w-full h-[600px] lg:h-auto lg:aspect-[40/17]">
     <img
       :src="image"
       :alt="title"
