@@ -29,10 +29,10 @@ video: /videos/banner.mp4
 items:
   - title: Onze aanpak
     text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae vel, harum ea labore facere cupiditate corporis laboriosam non esse sint voluptate incidunt adipisci quidem quaerat quos fugit sunt voluptatum asperiores tempore laborum ipsam eos facilis odit voluptatibus. Error explicabo officia sunt nam vero quod minima tenetur iusto, ullam impedit repellat!
-    image: https://picsum.photos/600/200
+    image: img/placeholder.jpg
   - title: Over ons
     text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae vel, harum ea labore facere cupiditate corporis laboriosam non esse sint voluptate incidunt adipisci quidem quaerat quos fugit sunt voluptatum asperiores tempore laborum ipsam eos facilis odit voluptatibus. Error explicabo officia sunt nam vero quod minima tenetur iusto, ullam impedit repellat!
-    image: https://picsum.photos/600/200
+    image: img/placeholder.jpg
     id: about
 ---
 ::
