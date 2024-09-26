@@ -23,7 +23,7 @@ defineProps<{
         {{ title }}
       </h1>
       <SvgoTextLogo class="min-w-full min-h-[100px] md:min-w-[600px] md:min-h-[100px] text-white" />
-      <span class="text-xl font-bold text-center">
+      <span class="text-xl font-bold text-center drop-shadow-xl">
         {{ subtitle }}
       </span>
     </div>

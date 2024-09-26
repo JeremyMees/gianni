@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     'nuxt-svgo',
     '@nuxthq/studio',
     '@nuxt/content',
+    '@nuxt/image',
   ],
   runtimeConfig: {
     public: {
@@ -29,5 +30,8 @@ export default defineNuxtConfig({
   aos: {
     once: true,
     duration: 500,
+  },
+  image: {
+    quality: 90,
   },
 })

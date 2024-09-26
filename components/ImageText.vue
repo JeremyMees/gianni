@@ -41,16 +41,21 @@ onMounted(() => {
     >
       <div class="grid md:grid-cols-2 gap-x-10 content-wrapper">
         <div
-          :id="`img-container-${id}`"
-          class="aspect-[14/9] overflow-hidden rounded-2xl"
+          class="flex flex-col justify-center"
           :class="[imageRight ? 'md:order-2' : 'md:order-1']"
         >
-          <img
-            :id="`img-${id}`"
-            :src="image"
-            alt="Content image"
-            class="scale-[1.05] w-full h-full object-cover"
+          <div
+            :id="`img-container-${id}`"
+            class="aspect-[14/9] overflow-hidden rounded-2xl"
           >
+            <NuxtImg
+              :id="`img-${id}`"
+              :src="image"
+              alt="Content image"
+              sizes="xs:300px sm:600px lg:800px"
+              class="scale-[1.05] w-full h-full object-cover"
+            />
+          </div>
         </div>
         <div
           class="py-4 flex flex-col justify-center gap-y-3"

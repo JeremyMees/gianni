@@ -86,7 +86,10 @@ title: Geloof ons niet op ons woord
 ---
 ::
 
-::lazy-image-banner{image="https://picsum.photos/1000/400"}
+::lazy-image-banner
+---
+image: img/placeholder.jpg
+---
 ::
 
 ::lazy-faq

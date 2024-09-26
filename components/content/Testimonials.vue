@@ -52,15 +52,17 @@ const testimonials = computed<Testimonial[][]>(() => {
             :data-aos-delay="(100 * i) + (100 * (j + 1))"
           >
             <div class="flex items-center gap-4">
-              <img
+              <NuxtImg
                 v-if="item.image"
                 :src="item.image"
                 :alt="item.name"
-                class="w-10 h-10 rounded-full aspect-square"
-              >
+                width="40"
+                height="40"
+                class="rounded-full aspect-square w-10 h-10"
+              />
               <div
                 v-else
-                class="w-10 h-10 rounded-full aspect-square bg-white flex flex-col items-center justify-center"
+                class="w-10 h-10 rounded-full bg-white flex flex-col items-center justify-center"
               >
                 <Icon
                   name="lucide:user"

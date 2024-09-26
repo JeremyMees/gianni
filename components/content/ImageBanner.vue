@@ -23,11 +23,12 @@ onMounted(() => {
     :id="`img-container-${id}`"
     class="h-[500px] w-full overflow-hidden my-[120px] rounded-2xl"
   >
-    <img
+    <NuxtImg
       :id="`img-${id}`"
       :src="image"
       alt="Content image"
+      sizes="xs:100vw"
       class="w-full h-full object-cover"
-    >
+    />
   </section>
 </template>
