@@ -3,13 +3,13 @@ export const links = [
     title: 'Contact',
     links: [
       {
-        label: 'gianni@email.com',
-        link: 'mailto:gianni@email.com',
+        label: 'gianniweyens1997@gmail.com',
+        link: 'mailto:gianniweyens1997@gmail.com',
         icon: 'lucide:mail',
       },
       {
-        label: '0472112720',
-        link: 'tel:0472112720',
+        label: '0471072147',
+        link: 'tel:0471072147',
         icon: 'lucide:phone',
       },
     ],
@@ -26,6 +26,11 @@ export const links = [
         label: 'Facebook',
         link: 'https://www.facebook.com/',
         icon: 'lucide:facebook',
+      },
+      {
+        label: 'Linkedin',
+        link: 'https://www.linkedin.com/company/kamino-media/',
+        icon: 'lucide:linkedin',
       },
       {
         label: 'Youtube',

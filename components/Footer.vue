@@ -7,7 +7,7 @@ import { links } from '~/constants/footer'
     id="contact"
     class="bg-black text-white rounded-t-2xl lg:rounded-t-[100px]"
   >
-    <div class="content-wrapper flex flex-wrap flex-col sm:flex-row lg:grid lg:grid-cols-4 gap-y-8 gap-x-16 justify-between lg:gap-x-0 py-14 lg:pt-20">
+    <div class="content-wrapper flex flex-wrap flex-col md:flex-row lg:grid lg:grid-cols-4 gap-y-8 gap-x-16 justify-between lg:gap-x-6 py-14 lg:pt-20">
       <NuxtLink
         to="/"
         data-aos="fade-right"
@@ -32,15 +32,18 @@ import { links } from '~/constants/footer'
           >
             <NuxtLink
               :to="item.link"
-              class="flex items-center gap-2"
+              class="flex items-center gap-2 overflow-hidden"
               :aria-label="`Link to ${item.label}`"
             >
               <Icon
                 v-if="'icon' in item"
                 :name="item.icon"
-                class="w-5 h-5"
+                class="min-w-5 min-h-5"
               />
-              <span v-if="item.label">
+              <span
+                v-if="item.label"
+                class="break-words"
+              >
                 {{ item.label }}
               </span>
             </NuxtLink>
