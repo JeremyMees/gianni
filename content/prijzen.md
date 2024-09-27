@@ -18,10 +18,10 @@ head:
 
 ::image-header
 ---
+rounded: true
 image: img/placeholder.jpg
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
 title: Prijzen
-rounded: true
 ---
 ::
 
