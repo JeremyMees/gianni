@@ -27,7 +27,7 @@ onMounted(() => {
       :id="`img-${id}`"
       :src="image"
       alt="Content image"
-      sizes="xs:100vw"
+      sizes="xs:320px sm:640px md:768px lg:1024px xl:1280px 2xl:1536px"
       class="w-full h-full object-cover"
     />
   </section>

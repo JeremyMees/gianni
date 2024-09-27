@@ -19,7 +19,7 @@ withDefaults(
     <NuxtImg
       :src="image"
       :alt="title"
-      sizes="xs:100vw"
+      sizes="xs:320px sm:640px md:768px lg:1024px xl:1280px 2xl:1536px"
       class="absolute inset-0 w-full h-full object-cover"
     />
     <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center gap-8 text-white">
