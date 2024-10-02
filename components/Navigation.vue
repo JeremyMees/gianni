@@ -58,13 +58,13 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
       >
         <Icon
           v-if="!mobileNavOpen"
-          name="heroicons:bars-3-solid"
+          name="lucide:menu"
           class="w-8 h-8"
         />
 
         <Icon
           v-else
-          name="heroicons:x-mark-solid"
+          name="lucide:x"
           class="w-8 h-8"
         />
       </button>

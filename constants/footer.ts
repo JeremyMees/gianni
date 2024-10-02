@@ -3,14 +3,18 @@ export const links = [
     title: 'Contact',
     links: [
       {
-        label: 'gianniweyens1997@gmail.com',
-        link: 'mailto:gianniweyens1997@gmail.com',
+        label: 'info.kaminomedia@gmail.com',
+        link: 'mailto:info.kaminomedia@gmail.com',
         icon: 'lucide:mail',
       },
       {
-        label: '0471072147',
-        link: 'tel:0471072147',
+        label: '+32 471 07 21 47',
+        link: 'tel:+32471072147',
         icon: 'lucide:phone',
+      },
+      {
+        label: 'BTW BE 1014.413.132.',
+        icon: 'lucide:factory',
       },
     ],
   },
