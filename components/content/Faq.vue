@@ -36,7 +36,7 @@ function toggleOpen(index: number): void {
             <div class="px-3 sm:px-10 pb-3 flex items-center gap-2">
               <Icon
                 name="lucide:arrow-right"
-                class="w-5 h-5"
+                class="min-w-5 min-h-5"
               />
               <p>
                 {{ item.answer }}
