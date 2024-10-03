@@ -46,10 +46,10 @@ export const links = [
   {
     title: 'Pagina\'s',
     links: [
-      {
-        label: 'Portfolio',
-        link: '/portfolio',
-      },
+      // {
+      //   label: 'Portfolio',
+      //   link: '/portfolio',
+      // },
       {
         label: 'Bruiloften',
         link: '/bruiloften',

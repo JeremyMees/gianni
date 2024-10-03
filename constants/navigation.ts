@@ -1,10 +1,10 @@
 import type { Link } from '~/types'
 
 export const links: Link[] = [
-  {
-    label: 'Portfolio',
-    link: '/portfolio',
-  },
+  // {
+  //   label: 'Portfolio',
+  //   link: '/portfolio',
+  // },
   {
     label: 'Bruiloften',
     link: '/bruiloften',
