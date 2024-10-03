@@ -92,12 +92,16 @@ title: Geloof ons niet op ons woord
 ::lazy-faq
 ---
 questions:
-  - question: Lorem ipsum dolor sit amet consectetur adipisicing elit. 1
-    answer: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cupiditate.
-  - question: Lorem ipsum dolor sit amet consectetur adipisicing elit. 2
-    answer: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cupiditate.
-  - question: Lorem ipsum dolor sit amet consectetur adipisicing elit. 3
-    answer: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cupiditate.
+  - question: Kunnen er dronebeelden gemaakt worden?
+    answer: Ja, maar niet na zonsondergang, of als er op de bruiloftsdag te veel wind en/of regen is.
+  - question: Kan ik specifieke input geven voor de film?
+    answer: Uiteraard! Hebben jullie een specifiek shot of een bepaalde stijl in gedachten? Tijdens de kennismaking zullen we dit allemaal bespreken, zodat de film volledig aan jullie verwachtingen voldoet.
+  - question: Wordt onze hele trouwceremonie op film (met geluid) opgenomen?
+    answer: Als jullie de geloften en toespraken ook graag auditief willen laten opnemen, kunnen jullie kiezen voor pakket 3. Bij de andere pakketten wordt de film uitsluitend ondersteund door muziek en geluidseffecten.
+  - question: Kunnen wij zelf de muziek kiezen voor de trouwvideo?
+    answer: Ja, maar hieraan zijn extra kosten verbonden. Als er rechten verbonden zijn aan de door jou gewenste muziek, zal ik dit moeten melden bij SABAM.
+  - question: Worden er filmbeelden van ons huwelijk gebruikt voor promotie van deze website?
+    answer: Ja en nee. Er zal een teaser van jullie film gemaakt worden, die wordt weergegeven op de website en sociale media, en indien met toestemming, de volledige film. Als jullie niet willen dat ik beelden van jullie weergeef, kan dit aangegeven worden.
 title: FAQ
 ---
 ::
