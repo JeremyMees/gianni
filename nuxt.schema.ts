@@ -5,6 +5,7 @@ export default defineNuxtSchema({
     navigation: group({
       title: 'Navigation',
       description: 'Navigation configuration',
+      icon: 'i-mdi-page-layout-header',
       fields: {
         links: field({
           type: 'array',
@@ -17,6 +18,7 @@ export default defineNuxtSchema({
     footer: group({
       title: 'Footer',
       description: 'Footer configuration',
+      icon: 'i-mdi-page-layout-footer',
       fields: {
         links: field({
           type: 'array',
