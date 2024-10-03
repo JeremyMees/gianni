@@ -18,7 +18,7 @@ head:
 
 ::video-header
 ---
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
+subtitle: each frame, a cherished memory.
 title: Kamino media
 video: /videos/banner.mp4
 ---
@@ -28,10 +28,10 @@ video: /videos/banner.mp4
 ---
 items:
   - title: Onze aanpak
-    text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae vel, harum ea labore facere cupiditate corporis laboriosam non esse sint voluptate incidunt adipisci quidem quaerat quos fugit sunt voluptatum asperiores tempore laborum ipsam eos facilis odit voluptatibus. Error explicabo officia sunt nam vero quod minima tenetur iusto, ullam impedit repellat!
+    text: Bij Kamino-Media werken we zonder aanwijzingen of geposeerde scènes. We leggen de spontane momenten vast, gericht op echte emoties en onvergetelijke momenten, om zo jullie verhaal met zorg en aandacht tot leven te brengen. Van bruiloften, communies, lentefeesten tot verjaardagsfeesten en babyborrles, jouw video moet een puur en authentiek beeld van jullie speciale dag vastleggen.
     image: img/placeholder.jpg
   - title: Over ons
-    text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae vel, harum ea labore facere cupiditate corporis laboriosam non esse sint voluptate incidunt adipisci quidem quaerat quos fugit sunt voluptatum asperiores tempore laborum ipsam eos facilis odit voluptatibus. Error explicabo officia sunt nam vero quod minima tenetur iusto, ullam impedit repellat!
+    text: Mijn naam is Gianni, afgestudeerd in audiovisuele kunsten met een specialisatie in Televisie & Film. Het vastleggen van onvergetelijke momenten is mijn passie. Met jarenlange werkervaring bij Studio 100 en een Marketing Agency, geef ik nu volledig mijn creativiteit en passie vorm in het filmen van trouwvideo’s. Ik zoek steeds naar unieke en persoonlijke manieren om jullie trouwdag perfect vast te leggen. Met mijn cinematische stijl breng ik de magie van jullie dag tot leven. Laat mij jullie verhaal vertellen, op een tijdloze en onvergetelijke manier.
     image: img/placeholder.jpg
     id: about
 ---
