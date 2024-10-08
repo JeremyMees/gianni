@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { links } from '~/constants/navigation'
+const { links } = useAppConfig().navigation
 
 const mobileNavOpen = ref<boolean>(false)
 const mobileNav = ref<HTMLElement>()

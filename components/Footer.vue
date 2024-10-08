@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { links } from '~/constants/footer'
+const { links } = useAppConfig().footer
 </script>
 
 <template>
@@ -33,6 +33,7 @@ import { links } from '~/constants/footer'
             <NuxtLink
               :to="item.link"
               class="flex items-center gap-2 overflow-hidden"
+              target="_blank"
               :aria-label="`Link to ${item.label}`"
             >
               <Icon
