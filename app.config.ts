@@ -26,6 +26,10 @@ export default defineAppConfig({
         label: "Linkedin",
         link: "https://www.linkedin.com/company/kamino-media/",
         icon: "lucide:linkedin"
+      }, {
+        label: "Youtube",
+        link: "https://www.youtube.com/@KaminoMedia",
+        icon: "lucide:youtube"
       }]
     }, {
       title: "Pagina's",
