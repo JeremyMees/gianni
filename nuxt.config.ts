@@ -23,15 +23,11 @@ export default defineNuxtConfig({
     config: { stylistic: true },
   },
   googleFonts: {
-    families: {
-      'DM Sans': true,
-    },
+    families: { 'DM Sans': true },
   },
   aos: {
     once: true,
     duration: 500,
   },
-  image: {
-    quality: 90,
-  },
+  image: { quality: 90 },
 })
