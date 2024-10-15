@@ -1,6 +1,7 @@
 <script setup lang="ts">
 defineProps<{
   video: string
+  thumbnail: string
   name: string
   text: string
   link?: string
@@ -50,6 +51,8 @@ onMounted(() => {
         >
           <VideoPlayer
             :path="video"
+            :thumbnail="thumbnail"
+            controls
             class="w-full h-full object-cover"
           />
         </div>

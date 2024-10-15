@@ -1,27 +1,16 @@
 <script setup lang="ts">
 import { Swiper, SwiperSlide } from 'swiper/vue'
-import VideoPlayer from '../VideoPlayer.vue'
 import 'swiper/css'
 
 defineProps<{
   title: string
   text: string
-  items: { name: string, video: string }[]
+  items: { name: string, video: string, thumbnail: string }[]
 }>()
 
 const isSmall = useMediaQuery('(max-width: 768px)')
 
 const swiperRef = ref<InstanceType<typeof Swiper>>()
-const videos = ref<InstanceType<typeof VideoPlayer>[]>()
-
-watch(() => swiperRef.value?.$el.swiper.activeIndex, (index, oldVal) => {
-  if (oldVal === undefined) return
-
-  if (videos.value && videos.value[index]) {
-    videos.value[index].play()
-    videos.value[swiperRef.value?.$el.swiper.previousIndex].pause()
-  }
-})
 </script>
 
 <template>
@@ -56,8 +45,9 @@ watch(() => swiperRef.value?.$el.swiper.activeIndex, (index, oldVal) => {
         class="max-w-[80vw] md:max-w-[55vw] mx-5"
       >
         <VideoPlayer
-          ref="videos"
           :path="item.video"
+          :thumbnail="item.thumbnail"
+          controls
         />
       </SwiperSlide>
     </Swiper>

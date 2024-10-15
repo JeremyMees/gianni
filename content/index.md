@@ -29,10 +29,10 @@ video: /videos/banner.mp4
 items:
   - title: Onze aanpak
     text: Bij Kamino-Media werken we zonder aanwijzingen of geposeerde scènes. We leggen de spontane momenten vast, gericht op echte emoties en onvergetelijke momenten, om zo jullie verhaal met zorg en aandacht tot leven te brengen. Van bruiloften, communies, lentefeesten tot verjaardagsfeesten en babyborrles, jouw video moet een puur en authentiek beeld van jullie speciale dag vastleggen.
-    image: img/placeholder.jpg
+    image: /img/placeholder.jpg
   - title: Over ons
     text: Mijn naam is Gianni, afgestudeerd in audiovisuele kunsten met een specialisatie in Televisie & Film. Het vastleggen van onvergetelijke momenten is mijn passie. Met jarenlange werkervaring bij Studio 100 en een Marketing Agency, geef ik nu volledig mijn creativiteit en passie vorm in het filmen van trouwvideo’s. Ik zoek steeds naar unieke en persoonlijke manieren om jullie trouwdag perfect vast te leggen. Met mijn cinematische stijl breng ik de magie van jullie dag tot leven. Laat mij jullie verhaal vertellen, op een tijdloze en onvergetelijke manier.
-    image: img/placeholder.jpg
+    image: /img/placeholder.jpg
     id: about
 ---
 ::
@@ -42,16 +42,13 @@ items:
 items:
   - name: Jate & Kevin
     video: /videos/kevin&jate.mp4
+    thumnail: /img/placeholder.jpg
   - name: Lies & Jeremy
     video: /videos/jeremy&lies.mp4
+    thumnail: /img/placeholder.jpg
   - name: Lorum ipsum
     video: /videos/placeholder.mp4
-  - name: Lorum ipsum
-    video: /videos/placeholder.mp4
-  - name: Lorum ipsum
-    video: /videos/placeholder.mp4
-  - name: Lorum ipsum
-    video: /videos/placeholder.mp4
+    thumnail: /img/placeholder.jpg
 text: Deze video's zijn niet de trouwmontages. Dit zijn teasers waar ik mijn creativiteit echt de vrije loop laat en iets gedurfd en unieks produceer.
 title: Jullie verhaal
 ---
@@ -86,7 +83,7 @@ title: Geloof ons niet op ons woord
 ---
 ::
 
-::lazy-image-banner{image="img/flowers.jpg"}
+::lazy-image-banner{image="/img/flowers.jpg"}
 ::
 
 ::lazy-faq

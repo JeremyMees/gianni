@@ -5,6 +5,7 @@ defineProps<{
   teaser: string
   items: {
     video: string
+    thumbnail: string
     name: string
     text: string
     link?: string
@@ -24,6 +25,7 @@ defineProps<{
       :name="item.name"
       :text="item.text"
       :video="item.video"
+      :thumbnail="item.thumbnail"
       :link="item.link"
       :variant="(i + 1) % 2 === 0"
       :last="i === items.length - 1"

@@ -2,6 +2,7 @@
 withDefaults(
   defineProps<{
     path: string
+    thumbnail: string
     autoplay?: boolean
     controls?: boolean
     muted?: boolean
@@ -35,7 +36,6 @@ function pauseVideo(): void {
 <template>
   <div
     class="relative aspect-video flex flex-col justify-center bg-black rounded-xl overflow-hidden"
-    @click="isPlaying ? pauseVideo() : playVideo()"
   >
     <video
       ref="videoPlayer"
@@ -54,14 +54,25 @@ function pauseVideo(): void {
     </video>
     <div
       v-if="!isPlaying"
-      class="absolute inset-0 bg-black/50"
+      class="absolute inset-0"
     >
-      <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white">
+      <button
+        class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white"
+        @click="isPlaying ? pauseVideo() : playVideo()"
+      >
         <Icon
           name="lucide:play"
           class="w-6 h-6"
         />
-      </div>
+      </button>
+      <NuxtImg
+        v-if="thumbnail"
+        :src="thumbnail"
+        alt="Video thumbnail"
+        width="320"
+        height="180"
+        class="absolute inset-0 z-10"
+      />
     </div>
   </div>
 </template>
