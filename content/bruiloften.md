@@ -31,24 +31,16 @@ items:
     text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
     video: /videos/jeremy&lies.mp4
     link: https://www.youtube.com/watch?v=ekQBYNrUe9E
+    thumbnail: /img/placeholder.jpg
   - name: Jate & Kevin
     text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
     video: /videos/kevin&jate.mp4
-  - name: Lies & Jeremy 3
+    thumbnail: /img/placeholder.jpg
+  - name: Lorum ipsum
     text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor si
     video: /videos/placeholder.mp4
     link: https://www.youtube.com/watch?v=HMTKMWHLbdQ
-  - name: Lies & Jeremy 4
-    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
-    video: /videos/placeholder.mp4
-  - name: Lies & Jeremy 5
-    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
-    video: /videos/placeholder.mp4
-    link: https://www.youtube.com/watch?v=HMTKMWHLbdQ
-  - name: Lies & Jeremy 6
-    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
-    video: /videos/placeholder.mp4
-    link: https://www.youtube.com/watch?v=HMTKMWHLbdQ
+    thumbnail: /img/placeholder.jpg
 teaser: De video's dienen als teasers om de privacy van de koppels te beschermen. Wanneer de koppels akkoord gaan, wordt er een link naar de volledige video gedeeld.
 ---
 ::

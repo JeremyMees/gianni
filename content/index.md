@@ -42,13 +42,13 @@ items:
 items:
   - name: Jate & Kevin
     video: /videos/kevin&jate.mp4
-    thumnail: /img/placeholder.jpg
+    thumbnail: /img/placeholder.jpg
   - name: Lies & Jeremy
     video: /videos/jeremy&lies.mp4
-    thumnail: /img/placeholder.jpg
+    thumbnail: /img/placeholder.jpg
   - name: Lorum ipsum
     video: /videos/placeholder.mp4
-    thumnail: /img/placeholder.jpg
+    thumbnail: /img/placeholder.jpg
 text: Deze video's zijn niet de trouwmontages. Dit zijn teasers waar ik mijn creativiteit echt de vrije loop laat en iets gedurfd en unieks produceer.
 title: Jullie verhaal
 ---

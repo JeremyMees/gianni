@@ -23,8 +23,11 @@ defineExpose({
 
 const videoPlayer = ref<HTMLVideoElement>()
 const isPlaying = ref<boolean>(false)
+const firstPlay = ref<boolean>(true)
 
 function playVideo(): void {
+  if (firstPlay.value) firstPlay.value = false
+
   videoPlayer.value?.play()
 }
 
@@ -34,9 +37,7 @@ function pauseVideo(): void {
 </script>
 
 <template>
-  <div
-    class="relative aspect-video flex flex-col justify-center bg-black rounded-xl overflow-hidden"
-  >
+  <div class="relative aspect-video flex flex-col justify-center bg-black rounded-xl overflow-hidden">
     <video
       ref="videoPlayer"
       :src="path"
@@ -47,17 +48,21 @@ function pauseVideo(): void {
       playsinline
       class="w-full"
       @playing="isPlaying = true"
-      @ended="isPlaying = false"
+      @ended="() => {
+        isPlaying = false
+        firstPlay = true
+      }"
       @pause="isPlaying = false"
     >
       Your browser does not support the video tag.
     </video>
     <div
-      v-if="!isPlaying"
+      v-if="firstPlay && !isPlaying"
       class="absolute inset-0"
+      :class="{ 'bg-black/50': !thumbnail }"
     >
       <button
-        class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white"
+        class="absolute z-[1] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white"
         @click="isPlaying ? pauseVideo() : playVideo()"
       >
         <Icon
@@ -66,12 +71,11 @@ function pauseVideo(): void {
         />
       </button>
       <NuxtImg
-        v-if="thumbnail"
         :src="thumbnail"
         alt="Video thumbnail"
         width="320"
         height="180"
-        class="absolute inset-0 z-10"
+        class="absolute inset-0 h-full w-full object-cover"
       />
     </div>
   </div>
