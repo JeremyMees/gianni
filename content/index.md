@@ -40,17 +40,17 @@ items:
 ::lazy-video-slider
 ---
 items:
-  - name: Lies & Jeremy 1
-    video: /videos/banner.mp4
-  - name: Lies & Jeremy 2
+  - name: Jate & Kevin
+    video: /videos/kevin&jate.mp4
+  - name: Lies & Jeremy
     video: /videos/jeremy&lies.mp4
-  - name: Lies & Jeremy 3
+  - name: Lorum ipsum
     video: /videos/placeholder.mp4
-  - name: Lies & Jeremy 4
+  - name: Lorum ipsum
     video: /videos/placeholder.mp4
-  - name: Lies & Jeremy 5
+  - name: Lorum ipsum
     video: /videos/placeholder.mp4
-  - name: Lies & Jeremy 6
+  - name: Lorum ipsum
     video: /videos/placeholder.mp4
 text: Deze video's zijn niet de trouwmontages. Dit zijn teasers waar ik mijn creativiteit echt de vrije loop laat en iets gedurfd en unieks produceer.
 title: Jullie verhaal

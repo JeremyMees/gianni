@@ -31,9 +31,9 @@ items:
     text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
     video: /videos/jeremy&lies.mp4
     link: https://www.youtube.com/watch?v=ekQBYNrUe9E
-  - name: Lies & Jeremy 2
+  - name: Jate & Kevin
     text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
-    video: /videos/placeholder.mp4
+    video: /videos/kevin&jate.mp4
   - name: Lies & Jeremy 3
     text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor si
     video: /videos/placeholder.mp4
