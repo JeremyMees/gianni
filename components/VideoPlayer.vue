@@ -19,6 +19,7 @@ withDefaults(
 defineExpose({
   play: playVideo,
   pause: pauseVideo,
+  reset: resetVideo,
 })
 
 const videoPlayer = ref<HTMLVideoElement>()
@@ -32,6 +33,12 @@ function playVideo(): void {
 }
 
 function pauseVideo(): void {
+  videoPlayer.value?.pause()
+}
+
+function resetVideo(): void {
+  isPlaying.value = false
+  firstPlay.value = true
   videoPlayer.value?.pause()
 }
 </script>
