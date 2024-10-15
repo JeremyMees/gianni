@@ -18,7 +18,7 @@ head:
 
 ::image-header
 ---
-image: img/placeholder.jpg
+image: img/flowers.jpg
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
 title: Bruiloften
 ---
@@ -27,10 +27,10 @@ title: Bruiloften
 ::video-showcase-list
 ---
 items:
-  - name: Lies & Jeremy 1
+  - name: Lies & Jeremy
     text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
-    video: /videos/placeholder.mp4
-    link: https://www.youtube.com/watch?v=HMTKMWHLbdQ
+    video: /videos/jeremy&lies.mp4
+    link: https://www.youtube.com/watch?v=ekQBYNrUe9E
   - name: Lies & Jeremy 2
     text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
     video: /videos/placeholder.mp4

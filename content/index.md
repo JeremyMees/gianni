@@ -43,7 +43,7 @@ items:
   - name: Lies & Jeremy 1
     video: /videos/banner.mp4
   - name: Lies & Jeremy 2
-    video: /videos/banner.mp4
+    video: /videos/jeremy&lies.mp4
   - name: Lies & Jeremy 3
     video: /videos/placeholder.mp4
   - name: Lies & Jeremy 4
@@ -52,7 +52,7 @@ items:
     video: /videos/placeholder.mp4
   - name: Lies & Jeremy 6
     video: /videos/placeholder.mp4
-text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae vel, harum ea labore facere cupiditate corporis laboriosam non esse sint voluptate incidunt adipisci quidem quaerat quos fugit sunt voluptatum asperiores tempore laborum ipsam eos facilis odit voluptatibus. Error explicabo officia sunt nam vero quod minima tenetur iusto, ullam impedit repellat!
+text: Deze video's zijn niet de trouwmontages. Dit zijn teasers waar ik mijn creativiteit echt de vrije loop laat en iets gedurfd en unieks produceer.
 title: Jullie verhaal
 ---
 ::
@@ -86,7 +86,7 @@ title: Geloof ons niet op ons woord
 ---
 ::
 
-::lazy-image-banner{image="img/placeholder.jpg"}
+::lazy-image-banner{image="img/flowers.jpg"}
 ::
 
 ::lazy-faq
