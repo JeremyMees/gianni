@@ -18,7 +18,7 @@ defineProps<{
     >
       Your browser does not support the video tag.
     </video>
-    <div class="absolute z-[2] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center gap-8 text-white w-full px-5 md:px-20">
+    <div class="absolute z-[2] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center text-white w-full px-5 md:px-20">
       <h1 class="invisible">
         {{ title }}
       </h1>
