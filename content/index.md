@@ -45,8 +45,11 @@ items:
     thumbnail: /img/placeholder.jpg
   - name: Lies & Jeremy
     video: /videos/jeremy&lies.mp4
+    thumbnail: /img/lies&jeremy.jpeg
+  - name: Eline & Brent
+    video: /videos/placeholder.mp4
     thumbnail: /img/placeholder.jpg
-  - name: Lorum ipsum
+  - name: Charlotte & Jari
     video: /videos/placeholder.mp4
     thumbnail: /img/placeholder.jpg
 text: Deze video's zijn niet de trouwmontages. Dit zijn teasers waar ik mijn creativiteit echt de vrije loop laat en iets gedurfd en unieks produceer.
@@ -79,7 +82,7 @@ items:
   - name: Lorem ipsum
     text: lor sit amet consectetur adipisicing elit. Quia, cupiditate.
 text: Lees wat onze klanten te zeggen hebben
-title: Geloof ons niet op ons woord
+title: Ontdek wat anderen vinden
 ---
 ::
 

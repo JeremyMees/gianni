@@ -31,12 +31,17 @@ items:
     text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
     video: /videos/jeremy&lies.mp4
     link: https://www.youtube.com/watch?v=ekQBYNrUe9E
-    thumbnail: /img/placeholder.jpg
+    thumbnail: /img/lies&jeremy.jpeg
   - name: Jate & Kevin
     text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
     video: /videos/kevin&jate.mp4
     thumbnail: /img/placeholder.jpg
-  - name: Lorum ipsum
+  - name: Eline & Brent
+    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor si
+    video: /videos/placeholder.mp4
+    link: https://www.youtube.com/watch?v=HMTKMWHLbdQ
+    thumbnail: /img/placeholder.jpg
+  - name: Charlotte & Jari
     text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor si
     video: /videos/placeholder.mp4
     link: https://www.youtube.com/watch?v=HMTKMWHLbdQ
