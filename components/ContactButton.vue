@@ -2,8 +2,6 @@
   <NuxtLink
     to="#contact"
     class="group flex w-fit"
-    data-aos="fade-left"
-    aria-label="Scroll to Contact"
   >
     <div class="relative flex items-center uppercase text-lg bg-white text-black font-semibold px-7 py-3 rounded-full group-hover:rounded-r-none group-hover:pr-0 transition-all duration-300">
       Contact

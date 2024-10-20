@@ -46,7 +46,10 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
       </nav>
 
       <div class="hidden lg:flex col-span-3 justify-end">
-        <ContactButton />
+        <ContactButton
+          data-aos="fade-left"
+          aria-label="Scroll to Contact"
+        />
       </div>
 
       <button

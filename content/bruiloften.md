@@ -38,9 +38,8 @@ items:
     thumbnail: /img/placeholder.jpg
   - name: Eline & Brent
     text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor si
-    video: /videos/placeholder.mp4
-    link: https://www.youtube.com/watch?v=HMTKMWHLbdQ
-    thumbnail: /img/placeholder.jpg
+    video: /videos/brent&eline.mp4
+    thumbnail: /img/eline&bert.jpg
   - name: Charlotte & Jari
     text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor si
     video: /videos/placeholder.mp4

@@ -47,8 +47,8 @@ items:
     video: /videos/jeremy&lies.mp4
     thumbnail: /img/lies&jeremy.jpeg
   - name: Eline & Brent
-    video: /videos/placeholder.mp4
-    thumbnail: /img/placeholder.jpg
+    video: /videos/brent&eline.mp4
+    thumbnail: /img/eline&bert.jpg
   - name: Charlotte & Jari
     video: /videos/placeholder.mp4
     thumbnail: /img/placeholder.jpg
