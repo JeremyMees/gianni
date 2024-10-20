@@ -35,7 +35,7 @@ items:
   - name: Jate & Kevin
     text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
     video: /videos/kevin&jate.mp4
-    thumbnail: /img/placeholder.jpg
+    thumbnail: /img/jate&kevin.jpg
   - name: Eline & Brent
     text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate. Lorem ipsum dolor si
     video: /videos/brent&eline.mp4

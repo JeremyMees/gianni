@@ -42,7 +42,7 @@ items:
 items:
   - name: Jate & Kevin
     video: /videos/kevin&jate.mp4
-    thumbnail: /img/placeholder.jpg
+    thumbnail: /img/jate&kevin.jpg
   - name: Lies & Jeremy
     video: /videos/jeremy&lies.mp4
     thumbnail: /img/lies&jeremy.jpeg
