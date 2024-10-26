@@ -32,7 +32,7 @@ items:
     image: /img/placeholder.jpg
   - title: Over ons
     text: Mijn naam is Gianni, afgestudeerd in audiovisuele kunsten met een specialisatie in Televisie & Film. Het vastleggen van onvergetelijke momenten is mijn passie. Met jarenlange werkervaring bij Studio 100 en een Marketing Agency, geef ik nu volledig mijn creativiteit en passie vorm in het filmen van trouwvideo’s. Ik zoek steeds naar unieke en persoonlijke manieren om jullie trouwdag perfect vast te leggen. Met mijn cinematische stijl breng ik de magie van jullie dag tot leven. Laat mij jullie verhaal vertellen, op een tijdloze en onvergetelijke manier.
-    image: /img/placeholder.jpg
+    image: /img/gianni.jpg
     id: about
 ---
 ::
@@ -78,8 +78,8 @@ items:
     text: lor sit amet consectetur adipisicing elit. Quia, cupiditate. lor sit amet consectetur adipisicing elit. Quia, cupiditate.
   - name: Lorem ipsum
     text: lor sit amet consectetur adipisicing elit. Quia, cupiditate.
-text: Lees wat onze klanten te zeggen hebben
-title: Ontdek wat anderen vinden
+text: Lees wat onze koppels te zeggen hebben
+title: Jullie ervaringen
 ---
 ::
 

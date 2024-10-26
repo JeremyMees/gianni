@@ -19,8 +19,8 @@ head:
 ::image-header
 ---
 rounded: true
-image: img/placeholder.jpg
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cupiditate.
+image: img/kleed.jpg
+subtitle: 
 title: Prijzen
 ---
 ::
