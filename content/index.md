@@ -49,9 +49,6 @@ items:
   - name: Eline & Brent
     video: /videos/brent&eline.mp4
     thumbnail: /img/eline&bert.jpg
-  - name: Charlotte & Jari
-    video: /videos/placeholder.mp4
-    thumbnail: /img/placeholder.jpg
 text: Deze video's zijn niet de trouwmontages. Dit zijn teasers waar ik mijn creativiteit echt de vrije loop laat en iets gedurfd en unieks produceer.
 title: Jullie verhaal
 ---
