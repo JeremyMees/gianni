@@ -27,7 +27,7 @@ title: Prijzen
 
 ::price-section
 ---
-disclaimer: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus qui consequatur, nam quos esse suscipit provident labore dolores doloribus saepe? Accusantium, aliquam. Culpa error maxime sed voluptate maiores dolor. Sint.
+disclaimer: Let op deze prijzen zijn exclusief kilometervegoeding
 prices:
   - name: Pakket 1
     price: 800
