@@ -29,10 +29,10 @@ video: /videos/banner.mp4
 items:
   - title: Onze aanpak
     text: Bij Kamino-Media werken we zonder aanwijzingen of geposeerde scènes. We leggen de spontane momenten vast, gericht op echte emoties en onvergetelijke momenten, om zo jullie verhaal met zorg en aandacht tot leven te brengen. Van bruiloften, communies, lentefeesten tot verjaardagsfeesten en babyborrles, jouw video moet een puur en authentiek beeld van jullie speciale dag vastleggen.
-    image: /img/placeholder.jpg
+    image: /img/ringen.jpg
   - title: Over ons
-    text: Mijn naam is Gianni, afgestudeerd in audiovisuele kunsten met een specialisatie in Televisie & Film. Het vastleggen van onvergetelijke momenten is mijn passie. Met jarenlange werkervaring bij Studio 100 en een Marketing Agency, geef ik nu volledig mijn creativiteit en passie vorm in het filmen van trouwvideo’s. Ik zoek steeds naar unieke en persoonlijke manieren om jullie trouwdag perfect vast te leggen. Met mijn cinematische stijl breng ik de magie van jullie dag tot leven. Laat mij jullie verhaal vertellen, op een tijdloze en onvergetelijke manier.
-    image: /img/gianni.jpg
+    text: Mijn naam is Gianni, afgestudeerd in audiovisuele kunsten met een specialisatie in Televisie & Film. Het vastleggen van onvergetelijke momenten is mijn passie. Met jarenlange werkervaring bij Studio 100 en verschillende Marketing Agencies, geef ik nu volledig mijn creativiteit en passie vorm in het filmen van trouwvideo’s. Ik zoek steeds naar unieke en persoonlijke manieren om jullie trouwdag perfect vast te leggen. Met mijn cinematische stijl breng ik de magie van jullie dag tot leven. Laat mij jullie verhaal vertellen, op een tijdloze en onvergetelijke manier.
+    image: /img/ik.jpg
     id: about
 ---
 ::

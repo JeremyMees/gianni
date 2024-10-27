@@ -31,28 +31,33 @@ prices:
   - name: Pakket 1
     price: 800
     features:
+      - Film van 3-5 minuten
+      - Inclusief teaser
       - 1 Videograaf
       - Ceremonie, receptie, sfeerbeelden en feest tot 10u
-      - Exl. km vergoeding
       - Ontmoetingsgesprek
-      - Oplevering binnen 1 maand
+      - Oplevering binnen 2 maanden
+      - 1 feedback ronde
   - name: Pakket 2
     price: 1000
     features:
+      - Film van 5-8 minuten
+      - Inclusief teaser
+      - Dronebeelden
       - 1 Videograaf
       - Klaarmaken, ceremonie, receptie, sfeerbeelden en feest tot 1u
-      - Incl vervoerskosten
-      - Dronebeelden
       - Ontmoetingsgesprek
-      - Oplevering binnen 1 maand
+      - Oplevering binnen 2 maanden
+      - 2 feedback rondes
   - name: Pakket 3
     price: 1500
     features:
-      - Optie tot 2de Videograaf
-      - Gehele dag aanwezig
-      - Voice over (geloften, toespraken, ...)
-      - Incl vervoerskosten
+      - Film van 8-10 minuten
+      - Inclusief teaser
       - Dronebeelden
+      - Optie tot 2de Videograaf
+      - Voice over (geloften, toespraken, ...)
+      - Klaarmaken, ceremonie, receptie, sfeerbeelden en feest tot 1u
       - Ontmoetingsgesprek
       - Oplevering binnen 2 maanden
 ---
