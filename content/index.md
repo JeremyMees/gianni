@@ -60,18 +60,12 @@ title: Jullie verhaal
 ::lazy-testimonials
 ---
 items:
-  - name: Lies & Jeremy
-    text: Gianni zorgde voor een trouwvideo die onze dag perfect weergeeft. Hij is professioneel en gepassioneerd en luistert echt naar wat je wilt. Wii zijn erg blij met de video, en raden hem aan aan iedereen die een persoonlijke en unieke trouwvideo wilt. Topper!
+  - name: Lies
+    text: Gianni zorgde voor een trouwvideo die onze dag perfect weergeeft. Hij is professioneel en gepassioneerd en luistert echt naar wat je wilt. Wij zijn erg blij met de video, en raden hem aan aan iedereen die een persoonlijke en unieke trouwvideo wilt. Topper!
   - name: Jeremy
-    text: De kwaliteit van de videoproductie was uitstekend, en alles werd precies op tijd geleverd. Absoluut een aanrader voor elk evenement!
-  - name: Jeremy
-    text: We konden niet gelukkiger zijn met het eindresultaat. Gianni bracht onze visie tot leven met creatieve shots en professionele editing.
-  - name: Jeremy
-    text: Uitstekende service van begin tot eind! Het team was attent, creatief, en leverde een prachtige video waar we voor altijd van zullen genieten.
-  - name: Jeremy
-    text: Hun oog voor detail en verhaalvertelling is geweldig! We voelden echt dat ze begrepen wat we wilden en ze leverden meer dan we hadden verwacht.
-  - name: Jeremy & Lies
     text: De video heeft ons echt omvergeblazen! Professioneel, prettig om mee te werken, en het resultaat was absoluut verbluffend.
+  - name: Jolien & Joel
+    text: Gianni's buitenfoto's van familie en individuele portretten zijn schitterend. Hij vangt de natuurlijke interacties tussen familieleden op een warme en levendige manier. 
 text: Lees wat onze koppels te zeggen hebben
 title: Jullie ervaringen
 ---
