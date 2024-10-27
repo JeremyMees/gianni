@@ -80,8 +80,8 @@ function resetVideo(): void {
       <NuxtImg
         :src="thumbnail"
         alt="Video thumbnail"
-        width="320"
-        height="180"
+        width="670"
+        height="380"
         class="absolute inset-0 h-full w-full object-cover"
       />
     </div>

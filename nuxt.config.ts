@@ -24,6 +24,7 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: { 'DM Sans': true },
+    download: true,
   },
   aos: {
     once: true,
