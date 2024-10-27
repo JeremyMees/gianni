@@ -27,7 +27,7 @@ title: Prijzen
 
 ::price-section
 ---
-disclaimer: Let op deze prijzen zijn exclusief kilometervegoeding
+disclaimer: Let op, deze prijzen zijn exclusief kilometervegoeding.
 prices:
   - name: Pakket 1
     price: 800
@@ -61,5 +61,6 @@ prices:
       - Klaarmaken, ceremonie, receptie, sfeerbeelden en feest tot 1u
       - Ontmoetingsgesprek
       - Oplevering binnen 2 maanden
+      - 2 feedback rondes
 ---
 ::
