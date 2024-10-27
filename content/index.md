@@ -67,7 +67,7 @@ items:
     text: Uitstekende service van begin tot eind! Het team was attent, creatief, en leverde een prachtige video waar we voor altijd van zullen genieten.
   - name: Jeremy
     text: Hun oog voor detail en verhaalvertelling is geweldig! We voelden echt dat ze begrepen wat we wilden en ze leverden meer dan we hadden verwacht.
-  - name: Jeremy
+  - name: Jeremy & Lies
     text: De video heeft ons echt omvergeblazen! Professioneel, prettig om mee te werken, en het resultaat was absoluut verbluffend.
 text: Lees wat onze koppels te zeggen hebben
 title: Jullie ervaringen
