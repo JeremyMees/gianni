@@ -49,6 +49,9 @@ items:
   - name: Eline & Brent
     video: /videos/brent&eline.mp4
     thumbnail: /img/eline&bert.jpg
+  - name: Charlotte & Jari
+    video: /videos/jari&charlotte.mp4
+    thumbnail: /img/charlotte&jari.jpg
 text: Deze video's zijn niet de trouwmontages. Dit zijn teasers waar ik mijn creativiteit echt de vrije loop laat en iets gedurfd en unieks produceer.
 title: Jullie verhaal
 ---
@@ -57,8 +60,8 @@ title: Jullie verhaal
 ::lazy-testimonials
 ---
 items:
-  - name: Jeremy
-    text: Werken met Gianni was een geweldige ervaring! De video legde elk moment perfect vast en overtrof onze verwachtingen.
+  - name: Lies & Jeremy
+    text: Gianni zorgde voor een trouwvideo die onze dag perfect weergeeft. Hij is professioneel en gepassioneerd en luistert echt naar wat je wilt. Wii zijn erg blij met de video, en raden hem aan aan iedereen die een persoonlijke en unieke trouwvideo wilt. Topper!
   - name: Jeremy
     text: De kwaliteit van de videoproductie was uitstekend, en alles werd precies op tijd geleverd. Absoluut een aanrader voor elk evenement!
   - name: Jeremy
@@ -89,7 +92,7 @@ questions:
   - question: Kunnen wij zelf de muziek kiezen voor de trouwvideo?
     answer: Ja, maar hieraan zijn extra kosten verbonden. Als er rechten verbonden zijn aan de door jou gewenste muziek, zal ik dit moeten melden bij SABAM.
   - question: Worden er filmbeelden van ons huwelijk gebruikt voor promotie van deze website?
-    answer: Ja en nee. Er zal een teaser van jullie film gemaakt worden, die wordt weergegeven op de website en sociale media, en indien met toestemming, de volledige film. Als jullie niet willen dat ik beelden van jullie weergeef, kan dit aangegeven worden.
+    answer: Er zal een teaser van jullie film gemaakt worden, die wordt weergegeven op de website en sociale media, en indien met toestemming, de volledige film. Als jullie niet willen dat ik beelden van jullie weergeef, kan dit aangegeven worden.
 title: FAQ
 ---
 ::
