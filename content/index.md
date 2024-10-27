@@ -67,7 +67,7 @@ items:
   - name: Jolien & Joel
     text: Gianni's buitenfoto's van familie en individuele portretten zijn schitterend. Hij vangt de natuurlijke interacties tussen familieleden op een warme en levendige manier.
   - name: Jate
-  - text: Heel goede service! Voor de trouw samengezeten voor de wensen te bespreken. Tijdens de trouw had je geen ongemakkelijk gevoel als de camera passeerde. Zeer proffessioneel werk met een mooi resultaat. Nadien ook zeer goede service als je nog iets aangepast wilt in de video! Zeer tevreden! Gianni is een echte aanrader. Kortom een toppertje!
+    text: Heel goede service! Voor de trouw samengezeten voor de wensen te bespreken. Tijdens de trouw had je geen ongemakkelijk gevoel als de camera passeerde. Zeer proffessioneel werk met een mooi resultaat. Nadien ook zeer goede service als je nog iets aangepast wilt in de video! Zeer tevreden! Gianni is een echte aanrader. Kortom een toppertje!
 text: Lees wat onze koppels te zeggen hebben
 title: Jullie ervaringen
 ---
