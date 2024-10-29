@@ -68,6 +68,12 @@ items:
     text: Gianni's buitenfoto's van familie en individuele portretten zijn schitterend. Hij vangt de natuurlijke interacties tussen familieleden op een warme en levendige manier.
   - name: Jate
     text: Heel goede service! Voor de trouw samengezeten voor de wensen te bespreken. Tijdens de trouw had je geen ongemakkelijk gevoel als de camera passeerde. Zeer proffessioneel werk met een mooi resultaat. Nadien ook zeer goede service als je nog iets aangepast wilt in de video! Zeer tevreden! Gianni is een echte aanrader. Kortom een toppertje!
+  - name: Eline
+    text: De samenwerking met Gianni verliep erg vlot en professioneel. Een sympathieke vent, met oog voor de wensen van zijn cliënten. We overloopten vooraf de hele dag en bedachten samen wat er mogelijk was en wat wij wilden van de trouwvideo. Het eindresultaat is prachtig. Een mooie compilatie video van de mooiste dag van ons leven. Telkens wanneer we de video zien, herleven we de emoties van onze trouwdag opnieuw - welke ook visueel in de verf werden gezet in de video.
+  - name: Brent
+    text: Ik zou Gianni zeker aanbevelen aan anderen om  hem hun trouwvideo te laten maken. Je hoeft zeker geen filmster te zijn, dat maakt Gianni van je door alles heel spontaan en ´echt´ te filmen.
+  - name: Charlotte & Jari
+    text: We zochten iemand om een kort video fragment te laten maken van onze huwelijksceremonie  aangezien de grootmoeder van mijn man er misschien niet kon bij zijn. Gianni zorgde voor een prachtig filmpje en ging heel subtiel te werk zonder het gevoel te hebben dat er een camera op je neus staat! Hij kon ons 1 maand na de trouw het afgewerkt fragment bezorgen waardoor we helemaal terug naar onze mooie dag gekatapulteerd werden.
 text: Lees wat onze koppels te zeggen hebben
 title: Jullie ervaringen
 ---
