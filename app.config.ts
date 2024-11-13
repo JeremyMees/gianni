@@ -19,6 +19,10 @@ export default defineAppConfig({
       title: "Socials",
 
       links: [{
+        label: "Facebook",
+        link: "https://www.facebook.com/profile.php?id=61567457746861",
+        icon: "lucide:facebook"
+      }, {
         label: "Instagram",
         link: "https://www.instagram.com/kamino.media?igsh=cHQ5b2tseHZldXFy",
         icon: "lucide:instagram"
