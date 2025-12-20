@@ -1,23 +1,33 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from '@tailwindcss/vite'
+
 export default defineNuxtConfig({
-  compatibilityDate: '2024-04-03',
-  devtools: { enabled: true },
   modules: [
     '@nuxt/eslint',
     '@nuxt/icon',
-    '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
     '@nuxtjs/google-fonts',
     'nuxt-aos',
     'nuxt-svgo',
-    '@nuxthq/studio',
     '@nuxt/content',
+    'nuxt-studio',
     '@nuxt/image',
   ],
+  devtools: { enabled: true },
+  css: ['./app/assets/css/main.css'],
   runtimeConfig: {
     public: {
       url: process.env.PUBLIC_URL,
     },
+  },
+  compatibilityDate: '2025-07-15',
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
+  aos: {
+    once: true,
+    duration: 500,
   },
   eslint: {
     config: { stylistic: true },
@@ -26,9 +36,14 @@ export default defineNuxtConfig({
     families: { 'DM Sans': true },
     download: true,
   },
-  aos: {
-    once: true,
-    duration: 500,
-  },
   image: { quality: 90 },
+  studio: {
+    route: '/_studio',
+    repository: {
+      provider: 'github',
+      owner: 'JeremyMees',
+      repo: 'gianni',
+      branch: 'main',
+    },
+  },
 })

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Testimonial } from '~/types'
+import type { Testimonial } from '@/types'
 
 const props = defineProps<{
   title: string

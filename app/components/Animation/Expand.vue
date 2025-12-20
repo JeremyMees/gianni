@@ -42,6 +42,8 @@ function leave(element: any): void {
 </template>
 
 <style scoped>
+  @reference "tailwindcss";
+
 * {
   @apply will-change-[height] transform-gpu;
 }

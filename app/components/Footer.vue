@@ -13,12 +13,12 @@ const { links } = useAppConfig().footer
         data-aos="fade-right"
         aria-label="Link to Home"
       >
-        <SvgoLogo class="min-w-[200px] min-h-[100px] text-white" />
+        <SvgoLogo class="min-w-50 min-h-25 text-white" />
       </NuxtLink>
       <div
         v-for="(column, i) in links"
         :key="column.title"
-        class="space-y-4"
+        class="flex flex-col gap-y-4"
         data-aos="fade-up"
         :data-aos-delay="100 * (i + 1)"
       >
@@ -43,7 +43,7 @@ const { links } = useAppConfig().footer
               />
               <span
                 v-if="item.label"
-                class="break-words"
+                class="wrap-break-word"
               >
                 {{ item.label }}
               </span>
