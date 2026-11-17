@@ -9,7 +9,11 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write",
     "typecheck": "nuxt typecheck",
+    "prepare": "husky",
     "deps": "npx taze -w"
   },
   "dependencies": {
@@ -28,12 +32,17 @@
     "sitemap": "^8.0.2",
     "swiper": "^11.2.10",
     "tailwindcss": "^4.1.18",
-    "vue": "latest"
+    "vue": "latest",
+    "vue-router": "^5.5.1"
   },
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.82",
     "@vueuse/core": "^14.1.0",
     "@vueuse/nuxt": "^14.1.0",
-    "typescript": "^5.9.3"
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.1",
+    "prettier": "^3.10.1",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.3.14"
   }
 }

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineProps<{
   title: string
-  questions: { question: string, answer: string }[]
+  questions: { question: string; answer: string }[]
 }>()
 
 const isOpen = ref<number | null>()
@@ -12,7 +12,9 @@ function toggleOpen(index: number): void {
 </script>
 
 <template>
-  <section class="max-w-[800px] w-full mx-auto flex flex-col bg-gray-100 py-10 rounded-[32px] shadow-lg">
+  <section
+    class="max-w-[800px] w-full mx-auto flex flex-col bg-gray-100 py-10 rounded-[32px] shadow-lg"
+  >
     <h2 class="text-4xl font-bold uppercase px-3 sm:px-10 pb-6">
       {{ title }}
     </h2>
@@ -29,15 +31,9 @@ function toggleOpen(index: number): void {
           {{ item.question }}
         </button>
         <AnimationExpand>
-          <div
-            v-if="isOpen === i"
-            @click="isOpen = null"
-          >
+          <div v-if="isOpen === i" @click="isOpen = null">
             <div class="px-3 sm:px-10 pb-3 flex items-center gap-2">
-              <Icon
-                name="lucide:arrow-right"
-                class="min-w-5 min-h-5"
-              />
+              <Icon name="lucide:arrow-right" class="min-w-5 min-h-5" />
               <p>
                 {{ item.answer }}
               </p>

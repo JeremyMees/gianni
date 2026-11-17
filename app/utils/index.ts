@@ -11,9 +11,7 @@ export function splitArray<T>(arr: T[], size: number): T[][] {
 export function shuffleArray<T>(arr: T[]): T[] {
   for (let i = 0; i < arr.length; i++) {
     const j = Math.floor(Math.random() * (i + 1))
-    const temp = arr[i]
-    arr[i] = arr[j]
-    arr[j] = temp
+    ;[arr[i], arr[j]] = [arr[j]!, arr[i]!]
   }
 
   return arr
@@ -29,7 +27,7 @@ export function randomArrayItems<T>(arr: T[], number = 1): T[] {
 
   for (let i = 0; i < number; i++) {
     const index = Math.floor(Math.random() * copy.length)
-    result.push(copy.splice(index, 1)[0])
+    result.push(...copy.splice(index, 1))
   }
 
   return result

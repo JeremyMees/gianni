@@ -44,7 +44,9 @@ function resetVideo(): void {
 </script>
 
 <template>
-  <div class="relative aspect-video flex flex-col justify-center bg-black rounded-xl overflow-hidden">
+  <div
+    class="relative aspect-video flex flex-col justify-center bg-black rounded-xl overflow-hidden"
+  >
     <video
       ref="videoPlayer"
       :src="path"
@@ -55,10 +57,12 @@ function resetVideo(): void {
       playsinline
       class="w-full"
       @playing="isPlaying = true"
-      @ended="() => {
-        isPlaying = false
-        firstPlay = true
-      }"
+      @ended="
+        () => {
+          isPlaying = false
+          firstPlay = true
+        }
+      "
       @pause="isPlaying = false"
     >
       Your browser does not support the video tag.
@@ -72,10 +76,7 @@ function resetVideo(): void {
         class="absolute z-[1] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white"
         @click="isPlaying ? pauseVideo() : playVideo()"
       >
-        <Icon
-          name="lucide:play"
-          class="w-6 h-6"
-        />
+        <Icon name="lucide:play" class="w-6 h-6" />
       </button>
       <NuxtImg
         :src="thumbnail"

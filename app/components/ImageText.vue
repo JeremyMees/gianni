@@ -7,7 +7,8 @@ withDefaults(
     title: string
     text: string
     imageRight?: boolean
-  }>(), {
+  }>(),
+  {
     imageRight: false,
   },
 )

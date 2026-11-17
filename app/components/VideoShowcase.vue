@@ -20,8 +20,7 @@ onMounted(() => {
   if (isSmall.value) {
     videoContainer.value?.removeAttribute('data-aos')
     textContainer.value?.removeAttribute('data-aos')
-  }
-  else {
+  } else {
     sectionContainer.value?.removeAttribute('data-aos')
   }
 
@@ -33,7 +32,9 @@ onMounted(() => {
   <section
     ref="sectionContainer"
     :class="[
-      variant || last ? 'md:bg-white md:text-black' : 'md:bg-black md:text-white',
+      variant || last
+        ? 'md:bg-white md:text-black'
+        : 'md:bg-black md:text-white',
     ]"
     data-aos="fade-up"
   >
@@ -72,13 +73,14 @@ onMounted(() => {
             :href="link"
             target="_blank"
             class="flex items-center gap-2 backdrop-blur-sm px-6 py-2 rounded-full shadow-lg w-fit mt-6 bg-black text-white"
-            :class="variant ? 'md:bg-white md:text-black' : 'md:bg-black md:text-white'"
+            :class="
+              variant
+                ? 'md:bg-white md:text-black'
+                : 'md:bg-black md:text-white'
+            "
             aria-label="Watch full video"
           >
-            <Icon
-              name="lucide:youtube"
-              class="w-5 h-5"
-            />
+            <Icon name="lucide:youtube" class="w-5 h-5" />
             <span class="ml-2">Bekijk volledige video</span>
           </a>
         </div>

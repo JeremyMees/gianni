@@ -1,0 +1,8 @@
+# Add files here to ignore them from prettier formatting
+/node_modules
+/.github
+/.husky
+/.vscode
+package-lock.json
+# Nuxt Studio content (MDC syntax, edited outside the editor)
+/content

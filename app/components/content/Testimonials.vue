@@ -49,7 +49,7 @@ const testimonials = computed<Testimonial[][]>(() => {
             :key="item.name"
             class="bg-gray-100 p-6 rounded-[32px] shadow"
             data-aos="fade-up"
-            :data-aos-delay="(100 * i) + (100 * (j + 1))"
+            :data-aos-delay="100 * i + 100 * (j + 1)"
           >
             <div class="flex items-center gap-4">
               <NuxtImg
@@ -64,10 +64,7 @@ const testimonials = computed<Testimonial[][]>(() => {
                 v-else
                 class="w-10 h-10 rounded-full bg-white flex flex-col items-center justify-center"
               >
-                <Icon
-                  name="lucide:user"
-                  class="w-6 h-6"
-                />
+                <Icon name="lucide:user" class="w-6 h-6" />
               </div>
               <p class="font-bold">
                 {{ item.name }}

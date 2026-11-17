@@ -1,6 +1,7 @@
+import { queryCollection } from '@nuxt/content/server'
 import { SitemapStream, streamToPromise } from 'sitemap'
 
-export default defineEventHandler(async (event) => {
+export default defineEventHandler(async event => {
   const { url } = useRuntimeConfig().public
 
   const docs = await queryCollection(event, 'content').all()

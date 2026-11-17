@@ -14,7 +14,7 @@ function enter(element: any): void {
   element.style.visibility = null
   element.style.height = 0
 
-  requestAnimationFrame(() => element.style.height = height)
+  requestAnimationFrame(() => (element.style.height = height))
 }
 
 function afterEnter(element: any): void {
@@ -26,7 +26,7 @@ function leave(element: any): void {
 
   element.style.height = height
 
-  requestAnimationFrame(() => element.style.height = 0)
+  requestAnimationFrame(() => (element.style.height = 0))
 }
 </script>
 
@@ -42,17 +42,19 @@ function leave(element: any): void {
 </template>
 
 <style scoped>
-  @reference "tailwindcss";
+@reference "tailwindcss";
 
 * {
   @apply will-change-[height] transform-gpu;
 }
 
-.expand-enter-active, .expand-leave-active {
+.expand-enter-active,
+.expand-leave-active {
   @apply overflow-hidden transition-all duration-500 ease-in-out;
 }
 
-.expand-enter, .expand-leave-to {
+.expand-enter,
+.expand-leave-to {
   @apply h-0;
 }
 </style>

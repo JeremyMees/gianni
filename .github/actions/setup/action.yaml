@@ -1,0 +1,16 @@
+name: Setup
+description: Set up Node.js, then install dependencies from the npm cache
+
+runs:
+  using: composite
+  steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@v6
+      with:
+        node-version-file: ".nvmrc"
+        cache: npm
+
+    # postinstall runs nuxt prepare, so .nuxt exists for eslint and typecheck
+    - name: Install dependencies
+      shell: bash
+      run: npm ci

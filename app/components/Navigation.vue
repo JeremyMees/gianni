@@ -4,7 +4,7 @@ const { links } = useAppConfig().navigation
 const mobileNavOpen = ref<boolean>(false)
 const mobileNav = ref<HTMLElement>()
 
-onClickOutside(mobileNav, () => mobileNavOpen.value = false)
+onClickOutside(mobileNav, () => (mobileNavOpen.value = false))
 </script>
 
 <template>
@@ -12,7 +12,9 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
     ref="mobileNav"
     class="transition-all duration-300 ease-in-out absolute left-0 right-0 z-10"
   >
-    <div class="content-wrapper flex items-center justify-between lg:grid lg:grid-cols-12 relative z-10">
+    <div
+      class="content-wrapper flex items-center justify-between lg:grid lg:grid-cols-12 relative z-10"
+    >
       <NuxtLink
         class="py-4 col-span-3"
         to="/"
@@ -28,7 +30,9 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
         aria-label="Main menu"
         data-aos="fade-down"
       >
-        <ul class="flex items-center gap-6 bg-white/40 backdrop-blur-sm px-8 h-[52px] rounded-full text-black shadow-lg">
+        <ul
+          class="flex items-center gap-6 bg-white/40 backdrop-blur-sm px-8 h-[52px] rounded-full text-black shadow-lg"
+        >
           <li
             v-for="{ link, label } in links"
             :key="label"
@@ -46,10 +50,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
       </nav>
 
       <div class="hidden lg:flex col-span-3 justify-end">
-        <ContactButton
-          data-aos="fade-left"
-          aria-label="Scroll to Contact"
-        />
+        <ContactButton data-aos="fade-left" aria-label="Scroll to Contact" />
       </div>
 
       <button
@@ -59,17 +60,9 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
         data-aos="fade-left"
         @click="mobileNavOpen = !mobileNavOpen"
       >
-        <Icon
-          v-if="!mobileNavOpen"
-          name="lucide:menu"
-          class="w-8 h-8"
-        />
+        <Icon v-if="!mobileNavOpen" name="lucide:menu" class="w-8 h-8" />
 
-        <Icon
-          v-else
-          name="lucide:x"
-          class="w-8 h-8"
-        />
+        <Icon v-else name="lucide:x" class="w-8 h-8" />
       </button>
     </div>
 
@@ -81,10 +74,7 @@ onClickOutside(mobileNav, () => mobileNavOpen.value = false)
         aria-label="Main menu"
       >
         <ul class="flex flex-col items-center justify-center p-8">
-          <li
-            v-for="{ link, label } in links"
-            :key="label"
-          >
+          <li v-for="{ link, label } in links" :key="label">
             <NuxtLink
               :to="link"
               class="inline-block py-4 whitespace-nowrap uppercase text-white"

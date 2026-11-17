@@ -7,12 +7,10 @@ const { links } = useAppConfig().footer
     id="contact"
     class="bg-black text-white rounded-t-2xl lg:rounded-t-[100px]"
   >
-    <div class="content-wrapper flex flex-wrap flex-col md:flex-row lg:grid lg:grid-cols-4 gap-y-8 gap-x-16 justify-between lg:gap-x-6 py-14 lg:pt-20">
-      <NuxtLink
-        to="/"
-        data-aos="fade-right"
-        aria-label="Link to Home"
-      >
+    <div
+      class="content-wrapper flex flex-wrap flex-col md:flex-row lg:grid lg:grid-cols-4 gap-y-8 gap-x-16 justify-between lg:gap-x-6 py-14 lg:pt-20"
+    >
+      <NuxtLink to="/" data-aos="fade-right" aria-label="Link to Home">
         <SvgoLogo class="min-w-50 min-h-25 text-white" />
       </NuxtLink>
       <div
@@ -26,10 +24,7 @@ const { links } = useAppConfig().footer
           {{ column.title }}
         </span>
         <ul class="flex flex-col gap-3">
-          <li
-            v-for="item in column.links"
-            :key="item.label"
-          >
+          <li v-for="item in column.links" :key="item.label">
             <NuxtLink
               :to="item.link"
               class="flex items-center gap-2 overflow-hidden"
@@ -41,10 +36,7 @@ const { links } = useAppConfig().footer
                 :name="item.icon"
                 class="min-w-5 min-h-5"
               />
-              <span
-                v-if="item.label"
-                class="wrap-break-word"
-              >
+              <span v-if="item.label" class="wrap-break-word">
                 {{ item.label }}
               </span>
             </NuxtLink>

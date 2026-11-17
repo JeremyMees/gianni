@@ -6,7 +6,7 @@ import 'swiper/css'
 defineProps<{
   title: string
   text: string
-  items: { name: string, video: string, thumbnail: string }[]
+  items: { name: string; video: string; thumbnail: string }[]
 }>()
 
 const isSmall = useMediaQuery('(max-width: 768px)')
@@ -14,29 +14,25 @@ const isSmall = useMediaQuery('(max-width: 768px)')
 const swiperRef = ref<InstanceType<typeof Swiper>>()
 const videos = ref<InstanceType<typeof VideoPlayer>[]>()
 
-watch(() => swiperRef.value?.$el.swiper.activeIndex, (index, oldVal) => {
-  if (oldVal === undefined) return
+watch(
+  () => swiperRef.value?.$el.swiper.activeIndex,
+  (index, oldVal) => {
+    if (oldVal === undefined) return
 
-  if (videos.value && videos.value[index]) {
-    videos.value[swiperRef.value?.$el.swiper.previousIndex].reset()
-  }
-})
+    if (videos.value && videos.value[index]) {
+      videos.value[swiperRef.value?.$el.swiper.previousIndex]?.reset()
+    }
+  },
+)
 </script>
 
 <template>
   <section class="mb-20">
     <div class="content-wrapper text-center pb-10">
-      <h2
-        class="text-4xl font-bold uppercase pb-6"
-        data-aos="fade-up"
-      >
+      <h2 class="text-4xl font-bold uppercase pb-6" data-aos="fade-up">
         {{ title }}
       </h2>
-      <p
-        class="max-w-prose mx-auto"
-        data-aos="fade-up"
-        data-aos-delay="200"
-      >
+      <p class="max-w-prose mx-auto" data-aos="fade-up" data-aos-delay="200">
         {{ text }}
       </p>
     </div>
@@ -67,15 +63,12 @@ watch(() => swiperRef.value?.$el.swiper.activeIndex, (index, oldVal) => {
       class="content-wrapper text-center mt-10 h-6 overflow-hidden"
     >
       <AnimationExpand>
-        <template
-          v-for="(item, i) in items"
-          :key="item.name"
-        >
+        <template v-for="(item, i) in items" :key="item.name">
           <p
             v-if="i === swiperRef.$el.swiper.activeIndex"
             class="font-black text-2xl uppercase"
           >
-            {{ items[i].name }}
+            {{ item.name }}
           </p>
         </template>
       </AnimationExpand>

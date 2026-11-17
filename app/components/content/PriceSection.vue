@@ -33,15 +33,10 @@ const isSmall = useMediaQuery('(max-width: 768px)')
             <h2 class="text-4xl font-bold">
               {{ name }}
             </h2>
-            <h3 class="text-[50px] font-bold">
-              €{{ price }}
-            </h3>
+            <h3 class="text-[50px] font-bold">€{{ price }}</h3>
           </div>
           <ul class="list-disc ml-5 flex flex-col gap-2 pt-10">
-            <li
-              v-for="feature in features"
-              :key="feature"
-            >
+            <li v-for="feature in features" :key="feature">
               {{ feature }}
             </li>
           </ul>

@@ -19,7 +19,7 @@ defineProps<{
       {{ teaser }}
     </InfoCard>
     <component
-      :is="i < 2 ? VideoShowcase: LazyVideoShowcase"
+      :is="i < 2 ? VideoShowcase : LazyVideoShowcase"
       v-for="(item, i) in items"
       :key="item.name"
       :name="item.name"
