@@ -11,13 +11,26 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-studio',
     '@nuxt/image',
+    '@sentry/nuxt/module',
   ],
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   runtimeConfig: {
     public: {
       url: process.env.PUBLIC_URL,
+      sentry: {
+        dsn: '',
+        environment: process.env.VERCEL_ENV ?? 'development',
+      },
     },
+  },
+  sourcemap: { client: 'hidden' },
+  sentry: {
+    org: 'kees',
+    project: 'kamino-media',
+    authToken: process.env.SENTRY_AUTH_TOKEN,
+    release: { name: process.env.SENTRY_RELEASE },
+    sourcemaps: { disable: !process.env.SENTRY_AUTH_TOKEN },
   },
   compatibilityDate: '2025-07-15',
   nitro: {
