@@ -48,16 +48,16 @@ items:
 items:
   - name: Jate & Kevin
     video: /videos/kevin&jate.mp4
-    thumbnail: /img/jate&kevin.jpg
+    thumbnail: /img/jate-kevin.jpg
   - name: Lies & Jeremy
     video: /videos/jeremy&lies.mp4
-    thumbnail: /img/lies&jeremy.jpeg
+    thumbnail: /img/lies-jeremy.jpeg
   - name: Eline & Brent
     video: /videos/brent&eline.mp4
-    thumbnail: /img/eline&bert.jpg
+    thumbnail: /img/eline-bert.jpg
   - name: Charlotte & Jari
     video: /videos/jari&charlotte.mp4
-    thumbnail: /img/charlotte&jari.jpg
+    thumbnail: /img/charlotte-jari.jpg
 text: Deze video's zijn niet de trouwmontages. Dit zijn teasers waar ik mijn
   creativiteit echt de vrije loop laat en iets gedurfd en unieks produceer.
 title: Jullie verhaal

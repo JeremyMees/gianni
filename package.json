@@ -13,23 +13,22 @@
     "deps": "npx taze -w"
   },
   "dependencies": {
-    "@nuxt/content": "^3.9.0",
-    "@nuxt/eslint": "^1.12.1",
-    "@nuxt/icon": "^2.1.1",
-    "@nuxt/image": "^2.0.0",
+    "@nuxt/content": "^3.16.2",
+    "@nuxt/eslint": "^1.17.0",
+    "@nuxt/icon": "^2.6.3",
+    "@nuxt/image": "^2.2.1",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@tailwindcss/vite": "^4.1.18",
     "better-sqlite3": "^12.5.0",
     "gsap": "^3.14.2",
-    "nuxt": "^4.2.2",
+    "nuxt": "^4.6.4",
     "nuxt-aos": "^1.2.5",
-    "nuxt-studio": "^1.0.0-beta.1",
+    "nuxt-studio": "^1.8.2",
     "nuxt-svgo": "^4.2.6",
     "sitemap": "^8.0.2",
     "swiper": "^11.2.10",
     "tailwindcss": "^4.1.18",
-    "vue": "latest",
-    "vue-router": "latest"
+    "vue": "latest"
   },
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.82",

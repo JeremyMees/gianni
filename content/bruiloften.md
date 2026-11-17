@@ -31,20 +31,20 @@ items:
     text: Halen, Sint-JansbergKlooster
     video: /videos/jeremy&lies.mp4
     link: https://www.youtube.com/watch?v=ekQBYNrUe9E
-    thumbnail: /img/lies&jeremy.jpeg
+    thumbnail: /img/lies-jeremy.jpeg
   - name: Jate & Kevin
     text: Lummen, Sint-Annagilde
     video: /videos/kevin&jate.mp4
     link: https://www.youtube.com/watch?v=7ecrZjcDwKk
-    thumbnail: /img/jate&kevin.jpg
+    thumbnail: /img/jate-kevin.jpg
   - name: Eline & Brent
     text: Hulshout, De Vlaschaard
     video: /videos/brent&eline.mp4
-    thumbnail: /img/eline&bert.jpg
+    thumbnail: /img/eline-bert.jpg
   - name: Charlotte & Jari
     text: Herk-de-Stad, Het Prieel
     video: /videos/jari&charlotte.mp4
-    thumbnail: /img/charlotte&jari.jpg
+    thumbnail: /img/charlotte-jari.jpg
 teaser: De video's dienen als teasers om de privacy van de koppels te beschermen. Wanneer de koppels akkoord gaan, wordt er een link naar de volledige video gedeeld.
 ---
 ::
