@@ -20,6 +20,12 @@ export default defineNuxtConfig({
     },
   },
   compatibilityDate: '2025-07-15',
+  nitro: {
+    prerender: {
+      routes: ['/', '/sitemap.xml'],
+      crawlLinks: true,
+    },
+  },
   vite: {
     plugins: [
       tailwindcss(),
