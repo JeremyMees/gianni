@@ -54,6 +54,7 @@ onMounted(() => {
               :src="image"
               alt="Content image"
               sizes="xs:300px sm:600px lg:800px"
+              loading="lazy"
               class="scale-[1.05] w-full h-full object-cover"
             />
           </div>

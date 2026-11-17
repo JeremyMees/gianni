@@ -16,6 +16,7 @@ defineProps<{
       autoplay
       muted
       loop
+      playsinline
       class="absolute z-[1] inset-0 w-full h-full object-cover"
     >
       Your browser does not support the video tag.

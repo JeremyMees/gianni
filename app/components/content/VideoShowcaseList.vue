@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { VideoShowcase, LazyVideoShowcase } from '#components'
-
 defineProps<{
   teaser: string
   items: {
@@ -18,8 +16,7 @@ defineProps<{
     <InfoCard>
       {{ teaser }}
     </InfoCard>
-    <component
-      :is="i < 2 ? VideoShowcase : LazyVideoShowcase"
+    <VideoShowcase
       v-for="(item, i) in items"
       :key="item.name"
       :name="item.name"

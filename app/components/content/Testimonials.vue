@@ -58,6 +58,7 @@ const testimonials = computed<Testimonial[][]>(() => {
                 :alt="item.name"
                 width="40"
                 height="40"
+                loading="lazy"
                 class="rounded-full aspect-square w-10 h-10"
               />
               <div

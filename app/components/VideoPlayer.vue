@@ -55,6 +55,7 @@ function resetVideo(): void {
       :loop="loop"
       :controls="controls"
       playsinline
+      preload="none"
       class="w-full"
       @playing="isPlaying = true"
       @ended="
@@ -83,6 +84,7 @@ function resetVideo(): void {
         alt="Video thumbnail"
         width="670"
         height="380"
+        loading="lazy"
         class="absolute inset-0 h-full w-full object-cover"
       />
     </div>
