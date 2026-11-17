@@ -7,17 +7,14 @@ const props = defineProps<{
   items: Testimonial[]
 }>()
 
-const isSmall = useMediaQuery('(max-width: 768px)')
-const isLarge = useMediaQuery('(min-width: 1440px)')
+const AMOUNT = 6
 
-const testimonials = computed<Testimonial[][]>(() => {
-  const columns = isSmall.value ? 1 : isLarge.value ? 3 : 2
-  const amount = isSmall.value ? 3 : 6
+const testimonials = useState<Testimonial[]>('testimonials', () =>
+  randomArrayItems([...props.items], AMOUNT),
+)
 
-  return splitArray<Testimonial>(
-    randomArrayItems<Testimonial>(props.items, amount),
-    columns,
-  )
+onMounted(() => {
+  testimonials.value = randomArrayItems([...props.items], AMOUNT)
 })
 </script>
 
@@ -31,52 +28,41 @@ const testimonials = computed<Testimonial[][]>(() => {
         {{ text }}
       </p>
     </div>
-    <ClientOnly>
+    <div
+      class="content-wrapper columns-1 md:columns-2 min-[1440px]:columns-3 gap-8"
+    >
       <div
-        v-if="testimonials"
-        class="grid gap-8 content-wrapper"
-        :style="{
-          gridTemplateColumns: `repeat(${testimonials.length}, minmax(0, 1fr))`,
-        }"
+        v-for="(item, i) in testimonials"
+        :key="item.name"
+        class="bg-gray-100 p-6 rounded-[32px] shadow break-inside-avoid mb-8"
+        :class="{ 'hidden md:block': i >= 3 }"
+        data-aos="fade-up"
+        :data-aos-delay="100 * ((i % 3) + 1)"
       >
-        <div
-          v-for="(column, i) in testimonials"
-          :key="i"
-          class="flex flex-col gap-8"
-        >
+        <div class="flex items-center gap-4">
+          <NuxtImg
+            v-if="item.image"
+            :src="item.image"
+            :alt="item.name"
+            width="40"
+            height="40"
+            loading="lazy"
+            class="rounded-full aspect-square w-10 h-10"
+          />
           <div
-            v-for="(item, j) in column"
-            :key="item.name"
-            class="bg-gray-100 p-6 rounded-[32px] shadow"
-            data-aos="fade-up"
-            :data-aos-delay="100 * i + 100 * (j + 1)"
+            v-else
+            class="w-10 h-10 rounded-full bg-white flex flex-col items-center justify-center"
           >
-            <div class="flex items-center gap-4">
-              <NuxtImg
-                v-if="item.image"
-                :src="item.image"
-                :alt="item.name"
-                width="40"
-                height="40"
-                loading="lazy"
-                class="rounded-full aspect-square w-10 h-10"
-              />
-              <div
-                v-else
-                class="w-10 h-10 rounded-full bg-white flex flex-col items-center justify-center"
-              >
-                <Icon name="lucide:user" class="w-6 h-6" />
-              </div>
-              <p class="font-bold">
-                {{ item.name }}
-              </p>
-            </div>
-            <p class="mt-2">
-              {{ item.text }}
-            </p>
+            <Icon name="lucide:user" class="w-6 h-6" />
           </div>
+          <p class="font-bold">
+            {{ item.name }}
+          </p>
         </div>
+        <p class="mt-2">
+          {{ item.text }}
+        </p>
       </div>
-    </ClientOnly>
+    </div>
   </section>
 </template>

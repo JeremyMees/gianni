@@ -1,21 +1,9 @@
 <script setup lang="ts">
-import { gsap } from 'gsap'
-
 defineProps<{ image: string }>()
 
 const id = useId()
 
-onMounted(() => {
-  gsap.from(`#img-${id}`, {
-    scrollTrigger: {
-      trigger: `#img-container-${id}`,
-      toggleActions: 'restart none none none',
-      scrub: 1,
-    },
-    scale: 1.3,
-    ease: 'power2.out',
-  })
-})
+useScrollZoom(`#img-${id}`, `#img-container-${id}`)
 </script>
 
 <template>

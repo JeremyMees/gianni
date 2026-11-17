@@ -38,6 +38,21 @@ export default defineNuxtConfig({
       routes: ['/', '/sitemap.xml'],
       crawlLinks: true,
     },
+    vercel: {
+      config: { images: { minimumCacheTTL: 2678400 } },
+    },
+  },
+  routeRules: {
+    '/img/**': {
+      headers: {
+        'cache-control': 'public, max-age=86400, stale-while-revalidate=604800',
+      },
+    },
+    '/videos/**': {
+      headers: {
+        'cache-control': 'public, max-age=86400, stale-while-revalidate=604800',
+      },
+    },
   },
   vite: {
     optimizeDeps: {

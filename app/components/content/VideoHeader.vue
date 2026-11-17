@@ -7,13 +7,18 @@ const props = defineProps<{
   poster?: string
 }>()
 
-if (props.poster) {
+const img = useImage()
+const posterUrl = computed(() =>
+  props.poster ? img(props.poster, { width: 1536, quality: 80 }) : undefined,
+)
+
+if (posterUrl.value) {
   useHead({
     link: [
       {
         rel: 'preload',
         as: 'image',
-        href: props.poster,
+        href: posterUrl.value,
         fetchpriority: 'high',
       },
     ],
@@ -27,7 +32,7 @@ if (props.poster) {
   >
     <video
       ref="videoPlayer"
-      :poster="poster"
+      :poster="posterUrl"
       autoplay
       muted
       loop
