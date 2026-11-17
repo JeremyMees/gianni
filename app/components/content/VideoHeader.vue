@@ -1,9 +1,24 @@
 <script setup lang="ts">
-defineProps<{
+const props = defineProps<{
   title: string
   subtitle: string
   video: string
+  videoMobile?: string
+  poster?: string
 }>()
+
+if (props.poster) {
+  useHead({
+    link: [
+      {
+        rel: 'preload',
+        as: 'image',
+        href: props.poster,
+        fetchpriority: 'high',
+      },
+    ],
+  })
+}
 </script>
 
 <template>
@@ -12,13 +27,20 @@ defineProps<{
   >
     <video
       ref="videoPlayer"
-      :src="video"
+      :poster="poster"
       autoplay
       muted
       loop
       playsinline
       class="absolute z-[1] inset-0 w-full h-full object-cover"
     >
+      <source
+        v-if="videoMobile"
+        :src="videoMobile"
+        media="(max-width: 768px)"
+        type="video/mp4"
+      />
+      <source :src="video" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
     <div

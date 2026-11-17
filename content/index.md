@@ -16,7 +16,7 @@ head:
       content: index, follow
 ---
 
-:video-header{subtitle="each frame, a cherished memory." title="Kamino media" video="/videos/banner.mp4"}
+:video-header{subtitle="each frame, a cherished memory." title="Kamino media" video="/videos/banner.mp4" video-mobile="/videos/banner-mobile.mp4" poster="/img/banner-poster.jpg"}
 
 ::image-text-sections
 ---
