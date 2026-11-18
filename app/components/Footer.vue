@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { NuxtLink } from '#components'
+
 const { links } = useAppConfig().footer
 </script>
 
@@ -25,11 +27,16 @@ const { links } = useAppConfig().footer
         </span>
         <ul class="flex flex-col gap-3">
           <li v-for="item in column.links" :key="item.label">
-            <NuxtLink
-              :to="item.link"
+            <component
+              :is="'link' in item && item.link ? NuxtLink : 'span'"
+              :to="'link' in item ? item.link : undefined"
               class="flex items-center gap-2 overflow-hidden"
-              target="_blank"
-              :aria-label="`Link to ${item.label}`"
+              :target="'link' in item && item.link ? '_blank' : undefined"
+              :aria-label="
+                'link' in item && item.link
+                  ? `Link to ${item.label}`
+                  : undefined
+              "
             >
               <Icon
                 v-if="'icon' in item"
@@ -39,7 +46,7 @@ const { links } = useAppConfig().footer
               <span v-if="item.label" class="wrap-break-word">
                 {{ item.label }}
               </span>
-            </NuxtLink>
+            </component>
           </li>
         </ul>
       </div>

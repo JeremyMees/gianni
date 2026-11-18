@@ -1,8 +1,15 @@
 <script setup lang="ts">
-defineProps<{
+const props = defineProps<{
   title: string
   questions: { question: string; answer: string }[]
 }>()
+
+useSchemaOrg([
+  defineWebPage({ '@type': 'FAQPage' }),
+  ...props.questions.map(({ question, answer }) =>
+    defineQuestion({ name: question, acceptedAnswer: answer }),
+  ),
+])
 
 const isOpen = ref<number | null>()
 

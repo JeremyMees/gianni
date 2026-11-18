@@ -1,6 +1,6 @@
 ---
-title: Kamino Media | Prijzen
-description: Bekijk onze tarieven voor videoproductie en videografie diensten. Betaalbare videograaf pakketten voor bruiloften, evenementen en bedrijfsvideo’s, passend bij elk budget.
+title: Prijzen
+description: Bekijk onze tarieven voor videografie. Betaalbare videograaf pakketten voor bruiloften, communies, lentefeesten en andere feesten, passend bij elk budget.
 image:
   url: /img/social-share-prijzen.png
   alt: Kamino Media Prijzen

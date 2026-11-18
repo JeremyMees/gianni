@@ -1,5 +1,5 @@
 ---
-title: Kamino Media | Bruiloften
+title: Bruiloften
 description: Bekijk prachtige trouwvideo’s die de mooiste momenten van bruiloften vastleggen. Laat je inspireren door onze professionele huwelijksvideografie en unieke stijl.
 image:
   url: /img/social-share-bruiloften.png

@@ -22,6 +22,7 @@
     "@nuxt/icon": "^2.6.3",
     "@nuxt/image": "^2.2.1",
     "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/seo": "^6.0.1",
     "@sentry/nuxt": "^11.13.0",
     "@tailwindcss/vite": "^4.1.18",
     "better-sqlite3": "^12.5.0",
@@ -30,7 +31,6 @@
     "nuxt-aos": "^1.2.6",
     "nuxt-studio": "^1.8.2",
     "nuxt-svgo": "^4.2.6",
-    "sitemap": "^8.0.2",
     "swiper": "^11.2.10",
     "tailwindcss": "^4.1.18",
     "vue": "latest",
@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.82",
+    "@types/node": "^26.6.6",
     "@vueuse/core": "^14.1.0",
     "@vueuse/nuxt": "^14.1.0",
     "husky": "^9.1.7",
